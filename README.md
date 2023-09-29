@@ -1,2 +1,2 @@
 # afa
-Personal porfolio web in React
+Personal porfolio web in React JS
