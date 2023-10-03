@@ -1,5 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 const AboutUs = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="section">
       <div className="container">
@@ -8,7 +11,7 @@ const AboutUs = () => {
           <span className="bg-primary text-dark px-2">About Me</span>
         </p>
         <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
-          Know Me More
+          {t("about-title")}
         </h2>
         {/* Heading end*/}
         <div className="row">

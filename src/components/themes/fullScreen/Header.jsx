@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { scrollDuration } from "../../../config/commonConfig";
 import { Tooltip } from "../../Tooltip";
+import { LanguageSelector } from "../../LanguageSelector";
 
 const FullScreenHeader = ({ textWhite }) => {
   const [stickyHeader, setStickyHeader] = useState(false);
@@ -52,19 +53,23 @@ const FullScreenHeader = ({ textWhite }) => {
               setIsNavModalClose(true);
             }}
           >
-            <img
+            {/* <img
               src={textWhite ? "images/logo-light.png" : "images/logo.png"}
               alt="Callum"
-            />
+            /> */}
+            ALEX
           </Link>
           {/* Logo End */}
           <div
-            className={"text-3 ms-auto me-2 " + (textWhite ? "text-white" : "")}
+            className={"text-2 ms-auto me-2 " + (textWhite ? "text-white" : "")}
           >
+            <LanguageSelector />
+          </div>
+          <div className={"number-phone " + (textWhite ? "text-white" : "")}>
             <span className="text-4 me-2">
               <i className="fas fa-phone" />
             </span>
-            (060) 444 434 444
+            (+34) 666956636
           </div>
           <button
             className={
@@ -220,6 +225,28 @@ const FullScreenHeader = ({ textWhite }) => {
                   >
                     Contact Me
                   </Link>
+                </li>
+                <li className="nav-item">
+                  <li className="nav-item">
+                    <Link
+                      className="nav-item d-sm-block d-md-block d-lg-none"
+                      smooth="easeInOutQuint"
+                      duration={scrollDuration}
+                      style={{ cursor: "pointer" }}
+                      activeClass="active"
+                      spy
+                      to="contact"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setIsNavModalClose(true);
+                      }}
+                    >
+                      <span className="text-4 me-2">
+                        <i className="fas fa-phone" />
+                      </span>
+                      (+34) 666956636
+                    </Link>
+                  </li>
                 </li>
               </ul>
               <ul className="social-icons social-icons-light social-icons-lg social-icons-light d-inline-flex mt-4">
