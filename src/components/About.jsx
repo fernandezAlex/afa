@@ -19,7 +19,7 @@ const AboutUs = () => {
             <h2 className="text-8 fw-400 mb-3">
               Hi, I'm{" "}
               <span className="fw-700 border-bottom border-3 border-primary">
-                Callum Smith
+                Alex Fernández
               </span>
             </h2>
             <p className="text-5">
