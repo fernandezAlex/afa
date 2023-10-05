@@ -3,8 +3,11 @@ import videobg from "../../../videos/home.mp4";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 import { scrollDuration } from "../../../config/commonConfig";
+import { useTranslation } from "react-i18next";
 
 const FullScreenVideoBgIntro = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="home">
       <div className="hero-wrap">
@@ -28,18 +31,22 @@ const FullScreenVideoBgIntro = () => {
             <div className="row">
               <div className="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0">
                 <h1 className="text-12 fw-300 mb-0 text-uppercase">
-                  Hi, I'm a Freelancer
+                  {t("intro-welcome")}
                 </h1>
-                <h2 className="text-21 fw-600 text-uppercase mb-0 ms-n1">
+                <h2 className="text-19 fw-600 text-uppercase mb-0 ms-n1">
                   <Typewriter
                     options={{
-                      strings: ["Designer", "Developer", "Callum"],
+                      strings: [
+                        t("intro-designer"),
+                        t("intro-developer"),
+                        t("intro-photographer"),
+                      ],
                       autoStart: true,
                       loop: true,
                     }}
                   />
                 </h2>
-                <p className="text-5">based in Los Angeles, USA.</p>
+                <p className="text-5">{t("intro-based")}</p>
                 <Link
                   className="btn btn-dark rounded-0 smooth-scroll mt-3"
                   smooth="easeInOutQuint"
@@ -47,7 +54,7 @@ const FullScreenVideoBgIntro = () => {
                   style={{ cursor: "pointer" }}
                   to="portfolio"
                 >
-                  View My Works
+                  {t("view-jobs")}
                 </Link>
                 <Link
                   className="btn btn-link text-dark smooth-scroll mt-3"
@@ -56,7 +63,7 @@ const FullScreenVideoBgIntro = () => {
                   style={{ cursor: "pointer" }}
                   to="contact"
                 >
-                  Contact Me
+                  {t("contact-me")}
                   <span className="text-4 ms-2">
                     <i className="far fa-arrow-alt-circle-down" />
                   </span>
@@ -65,10 +72,10 @@ const FullScreenVideoBgIntro = () => {
               <div className="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
                 <div className="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn">
                   <img
-                    className="img-fluid rounded-pill d-block"
+                    className="img-intro img-fluid rounded-pill d-block"
                     src="images/web-developer.jpg"
-                    title="I'm Callum"
-                    alt="I'm David"
+                    title="I'm Alex"
+                    alt="I'm Alex"
                   />
                 </div>
               </div>

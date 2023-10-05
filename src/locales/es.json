@@ -1,4 +1,17 @@
 {
-    "welcome": "Bienvenido a nuestra aplicación",
-    "about-title": "Conoceme mejor"
+    "intro-welcome": "Hola, soy Alex",
+    "intro-designer": "Diseñador",
+    "intro-developer": "Programador",
+    "intro-photographer": "Fotógrafo",
+    "intro-based": "en Barcelona, España.",
+    "view-jobs": "Ver mis trabajos",
+    "contact-me": "Contactar",
+    "about-title": "Conoceme mejor",
+    "home": "Inicio",
+    "about-me": "Sobre mí",
+    "what-i-do": "Mis servicios",
+    "resume": "Currículum",
+    "portfolio": "Trabajos",
+    "faq": "Preguntas frecuentes",
+    "client-opinion": "Opinión del cliente"
 }

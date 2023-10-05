@@ -1,4 +1,17 @@
 {
-    "welcome": "Hi, I'm ann Freelancer",
-    "about-title": "Know me moree"
+    "intro-welcome": "Hi, I'm a Freelancer",
+    "intro-designer": "designer",
+    "intro-developer": "developer",
+    "intro-photographer": "photographer",
+    "intro-based": "based in Barcelona, Spain.",
+    "view-jobs": "View My Works",
+    "contact-me": "Contact Me",
+    "about-title": "Know me more",
+    "home": "Home",
+    "about-me": "About me",
+    "what-i-do": "What I do",
+    "resume": "Resume",
+    "portfolio": "Portfolio",
+    "faq": "FAQ",
+    "client-opinion": "Client Opinion"
 }

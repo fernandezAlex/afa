@@ -3,10 +3,12 @@ import { Link } from "react-scroll";
 import { scrollDuration } from "../../../config/commonConfig";
 import { Tooltip } from "../../Tooltip";
 import { LanguageSelector } from "../../LanguageSelector";
+import { useTranslation } from "react-i18next";
 
 const FullScreenHeader = ({ textWhite }) => {
   const [stickyHeader, setStickyHeader] = useState(false);
   const [isNavModalClose, setIsNavModalClose] = useState(true);
+  const { t } = useTranslation();
 
   const checkScrollTop = () => {
     let header = document.getElementsByClassName("primary-menu");
@@ -65,7 +67,9 @@ const FullScreenHeader = ({ textWhite }) => {
           >
             <LanguageSelector />
           </div>
-          <div className={"number-phone " + (textWhite ? "text-white" : "")}>
+          <div
+            className={"number-phone mx-2 " + (textWhite ? "text-white" : "")}
+          >
             <span className="text-4 me-2">
               <i className="fas fa-phone" />
             </span>
@@ -73,7 +77,7 @@ const FullScreenHeader = ({ textWhite }) => {
           </div>
           <button
             className={
-              "navbar-toggler collapsed " + (isNavModalClose ? "" : "show")
+              "navbar-toggler collapsed mx-2 " + (isNavModalClose ? "" : "show")
             }
             type="button"
             onClick={() => setIsNavModalClose(!isNavModalClose)}
@@ -104,7 +108,7 @@ const FullScreenHeader = ({ textWhite }) => {
                       setIsNavModalClose(true);
                     }}
                   >
-                    Home
+                    {t("home")}
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -121,7 +125,7 @@ const FullScreenHeader = ({ textWhite }) => {
                       setIsNavModalClose(true);
                     }}
                   >
-                    About Me
+                    {t("about-me")}
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -138,7 +142,7 @@ const FullScreenHeader = ({ textWhite }) => {
                       setIsNavModalClose(true);
                     }}
                   >
-                    What I Do
+                    {t("what-i-do")}
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -155,7 +159,7 @@ const FullScreenHeader = ({ textWhite }) => {
                       setIsNavModalClose(true);
                     }}
                   >
-                    Resume
+                    {t("resume")}
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -172,7 +176,7 @@ const FullScreenHeader = ({ textWhite }) => {
                       setIsNavModalClose(true);
                     }}
                   >
-                    Portfolio
+                    {t("portfolio")}
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -189,7 +193,7 @@ const FullScreenHeader = ({ textWhite }) => {
                       setIsNavModalClose(true);
                     }}
                   >
-                    FAQ
+                    {t("faq")}
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -206,7 +210,7 @@ const FullScreenHeader = ({ textWhite }) => {
                       setIsNavModalClose(true);
                     }}
                   >
-                    Client Speak
+                    {t("client-opinion")}
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -223,7 +227,7 @@ const FullScreenHeader = ({ textWhite }) => {
                       setIsNavModalClose(true);
                     }}
                   >
-                    Contact Me
+                    {t("contact-me")}
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -250,32 +254,10 @@ const FullScreenHeader = ({ textWhite }) => {
                 </li>
               </ul>
               <ul className="social-icons social-icons-light social-icons-lg social-icons-light d-inline-flex mt-4">
-                <li className="social-icons-twitter">
-                  <Tooltip text="Twitter" placement="top">
-                    <a
-                      href="https://twitter.com/harnishdesign/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fab fa-twitter" />
-                    </a>
-                  </Tooltip>
-                </li>
-                <li className="social-icons-facebook">
-                  <Tooltip text="Facebook" placement="top">
-                    <a
-                      href="http://www.facebook.com/harnishdesign/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fab fa-facebook" />
-                    </a>
-                  </Tooltip>
-                </li>
                 <li className="social-icons-instagram">
                   <Tooltip text="Instagram" placement="top">
                     <a
-                      href="http://www.instagram.com/"
+                      href="https://www.instagram.com/alex_ffernandez/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -286,7 +268,7 @@ const FullScreenHeader = ({ textWhite }) => {
                 <li className="social-icons-linkedin">
                   <Tooltip text="Linkedin" placement="top">
                     <a
-                      href="http://www.linkedin.com/"
+                      href="https://www.linkedin.com/in/alex-fernandez-arroyo/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -294,14 +276,14 @@ const FullScreenHeader = ({ textWhite }) => {
                     </a>
                   </Tooltip>
                 </li>
-                <li className="social-icons-dribbble">
-                  <Tooltip text="Dribbble" placement="top">
+                <li className="social-icons-github">
+                  <Tooltip text="Github" placement="top">
                     <a
-                      href="http://www.dribbble.com/harnishdesign/"
+                      href="https://github.com/fernandezAlex"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="fab fa-dribbble" />
+                      <i className="fab fa-github" />
                     </a>
                   </Tooltip>
                 </li>

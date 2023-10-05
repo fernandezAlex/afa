@@ -1,3 +1,9 @@
 .navbar-overlay ul.navbar-nav li a {
     text-decoration: none;
 }
+
+@media (max-width: 480px) {
+    .img-intro {
+        max-height: 450px;
+    }
+}
