@@ -1,36 +1,38 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Services = () => {
+  const { t } = useTranslation();
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-palette",
-    },
-    {
-      name: "Web Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-desktop",
-    },
-    {
-      name: "UI/UX Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-pencil-ruler",
-    },
-    {
-      name: "App Design & Develop",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: t("design-service-title"),
+      desc: t("design-service"),
       icon: "fas fa-paint-brush",
     },
     {
-      name: "Business Analysis",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-chart-area",
+      name: t("web-service-title"),
+      desc: t("web-service"),
+      icon: "fas fa-desktop",
     },
     {
-      name: "SEO Marketing",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: t("ecommerce-service-title"),
+      desc: t("ecommerce-service"),
+      icon: "fas fa-regular fa-shopping-cart",
+    },
+    {
+      name: t("agenda-service-title"),
+      desc: t("agenda-service"),
+      icon: "fas fa-calendar-check",
+    },
+    {
+      name: t("photography-service-title"),
+      desc: t("photography-service"),
+      icon: "fas fa-camera",
+    },
+    {
+      name: t("content-service-title"),
+      desc: t("content-service"),
       icon: "fas fa-bullhorn",
     },
   ];
@@ -40,10 +42,10 @@ const Services = () => {
       <div className="container">
         {/* Heading */}
         <p className=" text-center mb-2 wow fadeInUp">
-          <span className="bg-primary text-dark px-2">What I Do?</span>
+          <span className="bg-primary text-dark px-2">{t("what-i-do")}</span>
         </p>
         <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
-          How I can help your next project
+          {t("service-title")}
         </h2>
         {/* Heading end*/}
         <div className="row gy-5 mt-5">

@@ -55,11 +55,10 @@ const FullScreenHeader = ({ textWhite }) => {
               setIsNavModalClose(true);
             }}
           >
-            {/* <img
+            <img
               src={textWhite ? "images/logo-light.png" : "images/logo.png"}
               alt="Callum"
-            /> */}
-            ALEX
+            />
           </Link>
           {/* Logo End */}
           <div
@@ -70,10 +69,11 @@ const FullScreenHeader = ({ textWhite }) => {
           <div
             className={"number-phone mx-2 " + (textWhite ? "text-white" : "")}
           >
-            <span className="text-4 me-2">
-              <i className="fas fa-phone" />
+            <span className="text-6 me-2 text-dark">
+              <a href="https://wa.me/666956636">
+                <i className="text-dark fab fa-whatsapp" />
+              </a>
             </span>
-            (+34) 666956636
           </div>
           <button
             className={

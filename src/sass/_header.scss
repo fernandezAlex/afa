@@ -18,6 +18,12 @@
     display: flex;
     -ms-flex-item-align: stretch;
     align-self: stretch;
+    max-width: 150px;
+
+    img {
+      padding: 18px 0px;
+      max-width: 130px;
+    }
   }
 }
 
@@ -340,11 +346,6 @@ html[dir="rtl"] .side-header {
       margin-left: auto;
     }
   }
-
-  .number-phone {
-    display: none;
-  }
-
 }
 
 /*== Color Options ==*/

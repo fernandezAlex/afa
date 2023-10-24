@@ -2,8 +2,74 @@
     text-decoration: none;
 }
 
+.container-img-about-me {
+    width: 360px !important;
+    height: 350px !important;
+    display: block !important;
+    padding-top: 22px !important;
+}
+
+.pr-4 {
+    padding-right: 2rem;
+}
+
+.img-about-container {
+    height: 600px;
+}
+
+.img-about-me {
+    position: relative;
+    top: -150px;
+}
+
 @media (max-width: 480px) {
     .img-intro {
         max-height: 450px;
     }
+
+    .img-about-container {
+        height: 100vw;
+    }
+
+    .img-about-me {
+        position: relative;
+        top: -250px;
+    }
 }
+
+
+// @media print {
+//     .img-about-me {
+//         page-break-inside: avoid;
+//     }
+// }
+
+// @media all {
+//     .img-about-me {
+//         max-width: 100%;
+//         height: auto;
+//     }
+
+//     ::selection {
+//         background: #e6b426;
+//     }
+
+//     .animacion-clip-path {
+//         animation: CLIPPATH 3s;
+//     }
+// }
+
+// /*! CSS Used keyframes */
+// @keyframes CLIPPATH {
+//     0% {
+//         clip-path: polygon(0 0, 0 0, 35% 100%, 35% 100%);
+//     }
+
+//     50% {
+//         clip-path: polygon(0 0, 70% 0, 100% 100%, 35% 100%);
+//     }
+
+//     100% {
+//         clip-path: polygon(70% 0, 70% 0, 100% 100%, 100% 100%);
+//     }
+// }

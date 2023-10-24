@@ -8,64 +8,76 @@ const AboutUs = () => {
       <div className="container">
         {/* Heading */}
         <p className="text-center mb-2 wow fadeInUp">
-          <span className="bg-primary text-dark px-2">About Me</span>
+          <span className="bg-primary text-dark px-2">{t("about-me")}</span>
         </p>
         <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
           {t("about-title")}
         </h2>
         {/* Heading end*/}
         <div className="row">
-          <div className="col-lg-8 text-center text-lg-start wow fadeInUp">
-            <h2 className="text-8 fw-400 mb-3">
-              Hi, I'm{" "}
+          <div className="col-lg-8 pr-4 text-center text-lg-start wow fadeInUp">
+            <h2 className="text-8 fw-400 mb-3 mt-4">
+              {t("intro-welcome-2")}
+              <br className="d-md-none" />
               <span className="fw-700 border-bottom border-3 border-primary">
                 Alex Fernández
               </span>
             </h2>
-            <p className="text-5">
-              I'm a designer &amp; developer with a passion for web design. I
-              enjoy developing simple, clean and slick websites that provide
-              real value to the end user. Thousands of clients have procured
-              exceptional results while working with me. Delivering work within
-              time and budget which meets client’s requirements is our moto.
-            </p>
+            <br />
+            <p className="text-4">{t("about-me-description-1")}</p>
+            <br />
+            <p className="text-4">{t("about-me-description-2")}</p>
+            <div className="row d-none d-md-flex gy-3 mt-4">
+              <div className="col-6 col-lg-4 wow fadeInUp">
+                <p className="text-muted fw-500 mb-0"> {t("name")}:</p>
+                <p className="text-4 text-dark fw-600 mb-0">
+                  Alex Fernández Arroyo
+                </p>
+              </div>
+              <div
+                className="col-6 col-lg-4 wow fadeInUp"
+                data-wow-delay="0.2s"
+              >
+                <p className="text-muted fw-500 mb-0">Email:</p>
+                <p className="text-4 fw-600 mb-0">
+                  <a className="link-dark" href="mailto:chat@callum.com">
+                    info@alex-creations.com
+                  </a>
+                </p>
+              </div>
+              <div
+                className="col-6 col-lg-4 wow fadeInUp"
+                data-wow-delay="0.4s"
+              >
+                <p className="text-muted fw-500 mb-0">{t("from")}:</p>
+                <p className="text-4 text-dark fw-600 mb-0">
+                  {t("intro-based")}
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            className="col-lg-4 mt-4 mt-lg-0 wow fadeInUp"
+            className="img-about-container col-lg-4 mt-4 px-0 mt-lg-0 wow fadeInUp"
             data-wow-delay="0.2s"
           >
             <div className="featured-box style-4">
-              <div className="featured-box-icon text-25 fw-500 bg-primary rounded-circle">
+              <div className="container-img-about-me featured-box-icon text-25 fw-500 bg-primary rounded-circle">
                 <span className="wow heartBeat" data-wow-delay="1.3s">
-                  22
+                  8
                 </span>
+                <h3
+                  className="text-7 wow rubberBand"
+                  data-wow-delay="2s"
+                  dangerouslySetInnerHTML={{ __html: t("years-experience") }}
+                />
               </div>
-              <h3 className="text-7 wow rubberBand" data-wow-delay="2s">
-                Years of <span className="fw-700">Experiance</span>
-              </h3>
             </div>
-          </div>
-        </div>
-        <div className="row gy-3 mt-4">
-          <div className="col-6 col-lg-3 wow fadeInUp">
-            <p className="text-muted fw-500 mb-0">Name:</p>
-            <p className="text-4 text-dark fw-600 mb-0">Callum Smith</p>
-          </div>
-          <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-            <p className="text-muted fw-500 mb-0">Email:</p>
-            <p className="text-4 fw-600 mb-0">
-              <a className="link-dark" href="mailto:chat@callum.com">
-                chat@callum.com
-              </a>
-            </p>
-          </div>
-          <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-            <p className="text-muted fw-500 mb-0">Date of birth:</p>
-            <p className="text-4 text-dark fw-600 mb-0">11 November, 1987</p>
-          </div>
-          <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-            <p className="text-muted fw-500 mb-0">From:</p>
-            <p className="text-4 text-dark fw-600 mb-0">Los Angeles, USA.</p>
+            <img
+              className="img-about-me animacion-clip-path img-fluid d-block"
+              src="images/web-desginer-about-me.png"
+              title="web developer"
+              alt="web developer"
+            />
           </div>
         </div>
       </div>
