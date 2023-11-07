@@ -1,68 +1,83 @@
 import React from "react";
-import resumeFile from "../documents/resume.pdf";
+import resumeFileES from "../documents/alex-fernandez-cv-23-es.pdf";
+import resumeFileENG from "../documents/alex-fernandez-cv-23-eng.pdf";
 import { useTranslation } from "react-i18next";
 
 const Resume = () => {
   const { t } = useTranslation();
+  const { i18n } = useTranslation();
+
   const educationDetails = [
     {
       yearRange: "2020 - 2021",
-      title: "Master Front End Developer",
+      title: `${t("education-nuclio-title")}`,
       place: "Nuclio Digital School",
-      desc: "Habilidades para el desarrollo web y el diseño de UI. Dominio de HTML, CSS, JavaScript, React, API y Node para Backend.",
+      desc: `${t("education-nuclio-description")}`,
       img: "images/Nuclio-Logo.jpg.webp",
     },
     {
       yearRange: "2018 - 2019",
-      title: "Curso Marketing Online 2.0",
+      title: `${t("education-marketing-title")}`,
       place: "Escuela de Empresa",
-      desc: "Fundamentos del Marketing 2.0 y sus implicancias en el e-commerce, el consumidor 2.0, el posicionamiento Web y las formas de hacer publicidad en la Red a través diferentes medios como el Email Marketing y las redes o medios sociales.",
+      desc: `${t("education-marketing-description")}`,
       img: "images/logo-cab.png",
     },
     {
       yearRange: "2014 - 2016",
-      title: "CFGS Desarrollo de aplicaciones web",
+      title: `${t("education-cfgs-title")}`,
       place: "Instituto Escuela del Trabajo",
-      desc: "Capacitación para desarrollar, implantar y mantener aplicaciones web, con independencia del modelo empleado, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad.",
+      desc: `${t("education-cfgs-description")}`,
       img: "images/escola-del-treball.png",
     },
     {
       yearRange: "2012 - 2014",
-      title: "CFGM Diseño grafico",
+      title: `${t("education-cfgm-title")}`,
       place: "IES Esteve Terrades",
-      desc: "Sólida formación en la creación de elementos visuales impactantes. Utilizazción de herramientas y técnicas de diseño para transmitir mensajes de manera efectiva y conectar con la audiencia.",
+      desc: `${t("education-cfgm-description")}`,
       img: "images/esteve-terrades.png",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2022 - current",
-      title: "Desarrollador Full Stack",
+      yearRange: `2022 - ${t("current")}`,
+      title: `${t("experience-travelport-title")}`,
       place: "Travelport",
-      desc: "Trabajo en el desarrollo de nuevas funcionalidades, corrección de errores, mejoras y mantenimiento en Travelport Smartpoint Cloud. Esta aplicación web tiene como objetivo reemplazar el software existente utilizado por las agencias de viajes, Galileo GDS. Mi contribución destacada incluye la creación desde cero de la parte gráfica del archivo de reservas utilizando una arquitectura de microservicios y microfrontends.",
+      desc: `${t("experience-travelport-description")}`,
       img: "images/tp_logo.jpeg",
     },
     {
       yearRange: "2019 - 2022",
-      title: "Desarrollador Font End & Diseñador web UI/UX",
+      title: `${t("experience-mediamarkt-title")}`,
       place: "MediaMarkt",
-      desc: "Mi experiencia en MediaMarkt se centró en la gestión y desarrollo del sitio web, creando páginas especiales y campañas para marcas líderes del mercado, como Apple, Samsung, Bosch, Xiaomi, entre otras. También fui responsable de crear formularios para páginas con partners como AXA, TotalEnergies, Movistar y gestionar los leads en la base de datos.",
+      desc: `${t("experience-mediamarkt-description")}`,
       img: "images/mediamarkt-logo.png",
     },
     {
       yearRange: "2017 - 2019",
-      title: "Desarrollador Font End & Diseñador web UI/UX",
+      title: `${t("experience-topdoctors-title")}`,
       place: "Topdoctors",
-      desc: "Tuve la responsabilidad de crear y desarrollar páginas de aterrizaje, boletines informativos y productos de la compañía. Además, fui el encargado del diseño de iconografía. También trabajé en un proyecto donde creamos páginas personalizadas para los doctores, utilizando y programando en WordPress.",
+      desc: `${t("experience-topdoctors-description")}`,
       img: "images/td-logo.png",
     },
   ];
 
   const skills = [
     {
-      name: "Web Design",
+      name: `${t("design")} - Adobe Photoshop y Adobe Illustrator`,
+      percent: 90,
+    },
+    {
+      name: `${t("photography-service-title")}`,
+      percent: 60,
+    },
+    {
+      name: "Marketing/SEO - Google Analytics y Google Tag Manager.",
       percent: 65,
+    },
+    {
+      name: `${t("design")} web - Adobe XD y Figma`,
+      percent: 85,
     },
     {
       name: "HTML/CSS",
@@ -74,15 +89,27 @@ const Resume = () => {
     },
     {
       name: "React JS",
-      percent: 70,
+      percent: 80,
     },
     {
-      name: "Angular Js",
+      name: "Bootstrap / Bulma / SASS",
+      percent: 99,
+    },
+    {
+      name: "Jest",
       percent: 60,
     },
     {
-      name: "Bootstrap",
-      percent: 99,
+      name: "Node",
+      percent: 60,
+    },
+    {
+      name: "TypeScript",
+      percent: 55,
+    },
+    {
+      name: "Mongo DB / SQL",
+      percent: 50,
     },
   ];
 
@@ -148,7 +175,9 @@ const Resume = () => {
           </div>
         </div>
         {/* My Skills */}
-        <h2 className="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp">My Skills</h2>
+        <h2 className="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp">
+          {t("my-skylls")}
+        </h2>
         <div className="row gx-5">
           {skills.length > 0 &&
             skills.map((skill, index) => (
@@ -173,10 +202,10 @@ const Resume = () => {
         <p className="text-center mt-5 wow fadeInUp">
           <a
             className="btn btn-outline-dark shadow-none rounded-0"
-            href={resumeFile}
+            href={i18n.language === "es" ? resumeFileES : resumeFileENG}
             download
           >
-            Download CV
+            {t("download-cv")}
           </a>
         </p>
       </div>
