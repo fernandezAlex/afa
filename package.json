@@ -9,6 +9,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.0",
+    "framer-motion": "^11.0.3",
     "i18next": "^23.5.1",
     "isotope-layout": "^3.0.6",
     "react": "^18.2.0",

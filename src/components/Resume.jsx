@@ -125,29 +125,6 @@ const Resume = () => {
         </h2>
         {/* Heading end*/}
         <div className="row g-5 mt-5">
-          {/* My Education */}
-          <div className="col-lg-6 wow fadeInUp">
-            <h2 className="text-7 fw-600 mb-4 pb-2">{t("my-education")}</h2>
-            <div className="border-start border-2 border-primary ps-3">
-              {educationDetails.length > 0 &&
-                educationDetails.map((value, index) => (
-                  <div key={index}>
-                    <img
-                      style={{ maxWidth: "200px" }}
-                      src={value.img}
-                      alt={value.title}
-                      className="me-3"
-                    />
-                    <h3 className="text-5">{value.title}</h3>
-                    <p className="mb-2">
-                      {value.place} / {value.yearRange}
-                    </p>
-                    <p className="text-muted">{value.desc}</p>
-                    <hr className="my-4" />
-                  </div>
-                ))}
-            </div>
-          </div>
           {/* My Experience */}
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
             <h2 className="text-7 fw-600 mb-4 pb-2">{t("my-experience")}</h2>
@@ -169,6 +146,29 @@ const Resume = () => {
                       <p className="text-muted">{value.desc}</p>
                       <hr className="my-4" />
                     </div>
+                  </div>
+                ))}
+            </div>
+          </div>
+          {/* My Education */}
+          <div className="col-lg-6 wow fadeInUp">
+            <h2 className="text-7 fw-600 mb-4 pb-2">{t("my-education")}</h2>
+            <div className="border-start border-2 border-primary ps-3">
+              {educationDetails.length > 0 &&
+                educationDetails.map((value, index) => (
+                  <div key={index}>
+                    <img
+                      style={{ maxWidth: "200px" }}
+                      src={value.img}
+                      alt={value.title}
+                      className="me-3"
+                    />
+                    <h3 className="text-5">{value.title}</h3>
+                    <p className="mb-2">
+                      {value.place} / {value.yearRange}
+                    </p>
+                    <p className="text-muted">{value.desc}</p>
+                    <hr className="my-4" />
                   </div>
                 ))}
             </div>

@@ -1,42 +1,51 @@
 .navbar-overlay ul.navbar-nav li a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .container-img-about-me {
-    width: 360px !important;
-    height: 350px !important;
-    display: block !important;
-    padding-top: 22px !important;
+	width: 360px !important;
+	height: 350px !important;
+	display: block !important;
+	padding-top: 22px !important;
 }
 
 .pr-4 {
-    padding-right: 2rem;
+	padding-right: 2rem;
 }
 
 .img-about-container {
-    height: 600px;
+	height: 600px;
 }
 
 .img-about-me {
-    position: relative;
-    top: -150px;
+	position: relative;
+	top: -150px;
 }
 
 @media (max-width: 480px) {
-    .img-intro {
-        max-height: 450px;
-    }
+	.img-intro {
+		max-height: 450px;
+	}
 
-    .img-about-container {
-        height: 100vw;
-    }
+	.img-about-container {
+		height: 100vw;
+	}
 
-    .img-about-me {
-        position: relative;
-        top: -250px;
-    }
+	.img-about-me {
+		position: relative;
+		top: -250px;
+	}
 }
 
+@media (max-width: 767px) {
+	.height-horizontal-carousel {
+		height: 50vh;
+	}
+}
+
+.height-horizontal-carousel {
+	height: 35vh;
+}
 
 // @media print {
 //     .img-about-me {

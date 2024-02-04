@@ -9,9 +9,9 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 import {
-  appliedConfig,
-  introBackgroundConfig,
-  themeConfig,
+	appliedConfig,
+	introBackgroundConfig,
+	themeConfig,
 } from "./config/commonConfig";
 import { Tooltip } from "./components/Tooltip";
 import CallToAction from "./components/CallToAction";
@@ -30,124 +30,124 @@ import StandardMenuImgBgIntro from "./components/themes/StandardMenu/IntroImageB
 import StandardMenuVideoBgIntro from "./components/themes/StandardMenu/IntroVideoBg";
 
 function App() {
-  const appliedTheme = appliedConfig.appliedTheme;
-  const appliedIntro = appliedConfig.appliedIntro;
+	const appliedTheme = appliedConfig.appliedTheme;
+	const appliedIntro = appliedConfig.appliedIntro;
 
-  const handleNavClick = (section) => {
-    document.getElementById(section).scrollIntoView({ behavior: "smooth" });
-  };
+	const handleNavClick = (section) => {
+		document.getElementById(section).scrollIntoView({ behavior: "smooth" });
+	};
 
-  const [scrollTopVisible, setScrollTopVisible] = useState(false);
+	const [scrollTopVisible, setScrollTopVisible] = useState(false);
 
-  useEffect(() => {
-    new WOW.WOW({
-      live: false,
-    }).init();
-  }, []);
+	useEffect(() => {
+		new WOW.WOW({
+			live: false,
+		}).init();
+	}, []);
 
-  const checkScrollTop = () => {
-    let scrollTopBtn = document.getElementById("back-to-top");
+	const checkScrollTop = () => {
+		let scrollTopBtn = document.getElementById("back-to-top");
 
-    if (scrollTopBtn) {
-      if (
-        document.body.scrollTop > 400 ||
-        document.documentElement.scrollTop > 400
-      ) {
-        setScrollTopVisible(true);
-      } else {
-        setScrollTopVisible(false);
-      }
-    }
-  };
+		if (scrollTopBtn) {
+			if (
+				document.body.scrollTop > 400 ||
+				document.documentElement.scrollTop > 400
+			) {
+				setScrollTopVisible(true);
+			} else {
+				setScrollTopVisible(false);
+			}
+		}
+	};
 
-  if (typeof window !== "undefined") {
-    window.addEventListener("scroll", checkScrollTop);
-  }
+	if (typeof window !== "undefined") {
+		window.addEventListener("scroll", checkScrollTop);
+	}
 
-  const getHeader = () => {
-    if (appliedTheme === themeConfig.BottomHeader) {
-      return <BottomHeader></BottomHeader>;
-    } else if (appliedTheme === themeConfig.FullScreenMenu) {
-      return (
-        <FullScreenHeader
-          textWhite={appliedIntro === introBackgroundConfig.image}
-        ></FullScreenHeader>
-      );
-    } else {
-      return <StandardMenuHeader></StandardMenuHeader>;
-    }
-  };
+	const getHeader = () => {
+		if (appliedTheme === themeConfig.BottomHeader) {
+			return <BottomHeader></BottomHeader>;
+		} else if (appliedTheme === themeConfig.FullScreenMenu) {
+			return (
+				<FullScreenHeader
+					textWhite={appliedIntro === introBackgroundConfig.image}
+				></FullScreenHeader>
+			);
+		} else {
+			return <StandardMenuHeader></StandardMenuHeader>;
+		}
+	};
 
-  const getBottomHeaderIntro = () => {
-    if (appliedIntro === introBackgroundConfig.default) {
-      return <BottomHeaderDefaultIntro></BottomHeaderDefaultIntro>;
-    } else if (appliedIntro === introBackgroundConfig.image) {
-      return <BottomHeaderImgBgIntro></BottomHeaderImgBgIntro>;
-    } else {
-      return <BottomHeaderVideoBgIntro></BottomHeaderVideoBgIntro>;
-    }
-  };
+	const getBottomHeaderIntro = () => {
+		if (appliedIntro === introBackgroundConfig.default) {
+			return <BottomHeaderDefaultIntro></BottomHeaderDefaultIntro>;
+		} else if (appliedIntro === introBackgroundConfig.image) {
+			return <BottomHeaderImgBgIntro></BottomHeaderImgBgIntro>;
+		} else {
+			return <BottomHeaderVideoBgIntro></BottomHeaderVideoBgIntro>;
+		}
+	};
 
-  const getFullScreenIntro = () => {
-    if (appliedIntro === introBackgroundConfig.default) {
-      return <FullScreenDefaultIntro></FullScreenDefaultIntro>;
-    } else if (appliedIntro === introBackgroundConfig.image) {
-      return <FullScreenImgBgIntro></FullScreenImgBgIntro>;
-    } else {
-      return <FullScreenVideoBgIntro></FullScreenVideoBgIntro>;
-    }
-  };
+	const getFullScreenIntro = () => {
+		if (appliedIntro === introBackgroundConfig.default) {
+			return <FullScreenDefaultIntro></FullScreenDefaultIntro>;
+		} else if (appliedIntro === introBackgroundConfig.image) {
+			return <FullScreenImgBgIntro></FullScreenImgBgIntro>;
+		} else {
+			return <FullScreenVideoBgIntro></FullScreenVideoBgIntro>;
+		}
+	};
 
-  const getStandardMenuIntro = () => {
-    if (appliedIntro === introBackgroundConfig.default) {
-      return <StandardMenuDefaultIntro></StandardMenuDefaultIntro>;
-    } else if (appliedIntro === introBackgroundConfig.image) {
-      return <StandardMenuImgBgIntro></StandardMenuImgBgIntro>;
-    } else {
-      return <StandardMenuVideoBgIntro></StandardMenuVideoBgIntro>;
-    }
-  };
+	const getStandardMenuIntro = () => {
+		if (appliedIntro === introBackgroundConfig.default) {
+			return <StandardMenuDefaultIntro></StandardMenuDefaultIntro>;
+		} else if (appliedIntro === introBackgroundConfig.image) {
+			return <StandardMenuImgBgIntro></StandardMenuImgBgIntro>;
+		} else {
+			return <StandardMenuVideoBgIntro></StandardMenuVideoBgIntro>;
+		}
+	};
 
-  return (
-    <>
-      <div style={{ position: "relative" }}>
-        <div id="main-wrapper">
-          {appliedTheme === themeConfig.BottomHeader && getBottomHeaderIntro()}
-          {getHeader()}
+	return (
+		<>
+			<div style={{ position: "relative" }}>
+				<div id="main-wrapper">
+					{appliedTheme === themeConfig.BottomHeader && getBottomHeaderIntro()}
+					{getHeader()}
 
-          <div id="content" role="main">
-            {appliedTheme === themeConfig.FullScreenMenu &&
-              getFullScreenIntro()}
-            {appliedTheme === themeConfig.StandardMenu &&
-              getStandardMenuIntro()}
+					<div id="content" role="main">
+						{appliedTheme === themeConfig.FullScreenMenu &&
+							getFullScreenIntro()}
+						{appliedTheme === themeConfig.StandardMenu &&
+							getStandardMenuIntro()}
 
-            <AboutUs></AboutUs>
-            <Services></Services>
-            <Resume></Resume>
-            <Portfolio></Portfolio>
-            <CallToAction></CallToAction>
-            <FAQs></FAQs>
-            <Testimonials></Testimonials>
-            <Contact></Contact>
-          </div>
-          <Footer handleNavClick={handleNavClick}></Footer>
-        </div>
-        {/* back to top */}
-        <Tooltip text="Back to Top" placement="left">
-          <span
-            id="back-to-top"
-            className="rounded-circle"
-            style={{ display: scrollTopVisible ? "inline" : "none" }}
-            onClick={() => {
-              window.scrollTo({ top: 0, behavior: "smooth" });
-            }}
-          >
-            <i className="fas fa-arrow-up"></i>
-          </span>
-        </Tooltip>
-      </div>
-    </>
-  );
+						<AboutUs></AboutUs>
+						<Portfolio></Portfolio>
+						<Services></Services>
+						<CallToAction></CallToAction>
+						<Resume></Resume>
+						<FAQs></FAQs>
+						<Testimonials></Testimonials>
+						<Contact></Contact>
+					</div>
+					<Footer handleNavClick={handleNavClick}></Footer>
+				</div>
+				{/* back to top */}
+				<Tooltip text="Back to Top" placement="left">
+					<span
+						id="back-to-top"
+						className="rounded-circle"
+						style={{ display: scrollTopVisible ? "inline" : "none" }}
+						onClick={() => {
+							window.scrollTo({ top: 0, behavior: "smooth" });
+						}}
+					>
+						<i className="fas fa-arrow-up"></i>
+					</span>
+				</Tooltip>
+			</div>
+		</>
+	);
 }
 
 export default App;
