@@ -4,6 +4,7 @@ import ProjectDetailsModal from "./ProjectDetailsModal";
 import HorizontalCarusel from "../components/HorizontalCarusel";
 import topDoctors from "../data/topDoctors.json";
 import mediamarkt from "../data/mediamarkt.json";
+import projectsData from "../data/projectsData.json";
 
 const Portfolio = () => {
 	// init one ref to store the future isotope object
@@ -13,6 +14,8 @@ const Portfolio = () => {
 	const [imagesLoaded, setimagesLoaded] = useState(0);
 	const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 	const [isOpen, setIsOpen] = useState(false);
+	const [visibleProjects, setVisibleProjects] = useState([]);
+	const [loadCount, setLoadCount] = useState(3);
 
 	const htmlElement = document.getElementsByTagName("html")[0];
 	const isRtl = htmlElement.getAttribute("dir") === "rtl";
@@ -29,208 +32,19 @@ const Portfolio = () => {
 		DOCUMENT: "document",
 	};
 
-	const projectsData = [
-		{
-			title: "Standar Latino",
-			type: types.DOCUMENT,
-			document: {
-				projectInfo:
-					"Creación de logotipo y diseño cartel promocional de la escuela de baile.",
-				client: "Standar Latino Dance School",
-				technologies: "Diseño e identidad corporativa",
-				industry: "Baile",
-				date: "2017",
-				url: {
-					name: "https://www.instagram.com/standardlatino/",
-					link: "https://www.instagram.com/standardlatino/",
-				},
-
-				sliderImages: [
-					"images/projects/standard-latino/logo-standard-2.jpg",
-					"images/projects/standard-latino/project-1.jpg",
-				],
-			},
-
-			thumbImage: "images/projects/standard-latino/logo-standard.jpg",
-
-			categories: [filters.DESIGN],
-		},
-		{
-			title: "YUGO",
-			type: types.DOCUMENT,
-			document: {
-				projectInfo: "Creación de identidad corporativa.",
-				client: "Yugo shushi & burguer fusion food",
-				technologies:
-					"Diseño, creación de marca, carta y papelería corporativa.",
-				industry: "Fusion food",
-
-				date: "2018",
-				url: {
-					name: "https://www.facebook.com/yugofusion",
-					link: "https://www.facebook.com/yugofusion/photos?locale=en_GB",
-				},
-
-				sliderImages: [
-					"images/projects/yugo-fusion-food/yugo-carta.png",
-					"images/projects/yugo-fusion-food/yugo-gourmet-logo.jpg",
-					"images/projects/yugo-fusion-food/yugo-shushi-mock-up.jpg",
-					"images/projects/yugo-fusion-food/yugo-carteleria-bus.jpg",
-					"images/projects/yugo-fusion-food/yugo-menu.jpg",
-					"images/projects/yugo-fusion-food/yugo-mapa.jpg",
-					"images/projects/yugo-fusion-food/yugo-cartel-domicilio.png",
-					"images/projects/yugo-fusion-food/yugo-flyers-menu.jpg",
-					"images/projects/yugo-fusion-food/yugo-flyers.jpg",
-					"images/projects/yugo-fusion-food/yugo-cartel-promo.jpg",
-					"images/projects/yugo-fusion-food/yugo-logo-carteles.jpg",
-				],
-			},
-			thumbImage: "images/projects/yugo-fusion-food/yugo_logotype.jpg",
-
-			categories: [filters.DESIGN],
-		},
-		{
-			title: "Atlantida Flyer Luciano",
-			type: types.IMAGE,
-
-			thumbImage: "images/projects/flyer-atlantida-luciano.jpg",
-
-			categories: [filters.DESIGN],
-		},
-		{
-			title: "Pizza Roma",
-			type: types.IMAGE,
-
-			thumbImage: "images/projects/pizza-roma-logo.png",
-
-			categories: [filters.DESIGN],
-		},
-		{
-			title: "Orsom Catamaran",
-			type: types.DOCUMENT,
-			document: {
-				projectInfo: "Creación de identidad corporativa.",
-				client: "Orsom Catamaran Barcelona",
-				technologies: "Diseño logotipo y folleto",
-				industry: "Náutica",
-
-				date: "2018",
-				url: {
-					name: "https://barcelona-orsom.com/es/",
-					link: "https://barcelona-orsom.com/es/",
-				},
-
-				sliderImages: [
-					"images/projects/orsom-catamaran/1.jpg",
-					"images/projects/orsom-catamaran/2.jpg",
-					"images/projects/orsom-catamaran/3.jpg",
-					"images/projects/orsom-catamaran/logo-orsom-catamaran.jpg",
-				],
-			},
-			thumbImage: "images/projects/orsom-catamaran/0.jpg",
-			categories: [filters.DESIGN],
-		},
-		{
-			title: "Centro de Oftalmología Bonafonte",
-			type: types.IMAGE,
-
-			thumbImage: "images/projects/Centro-Oftalmología-Bonafonte.jpg",
-
-			categories: [filters.DESIGN],
-		},
-		{
-			title: "Sabuma heladería ecológica",
-			type: types.IMAGE,
-
-			thumbImage: "images/projects/SABUMA-GELADERIA-ECOLÒGICA.jpg",
-
-			categories: [filters.DESIGN],
-		},
-		{
-			title: "Sabuma heladería ecológica",
-			type: types.IMAGE,
-
-			thumbImage: "images/projects/elefante-diseño-tatuaje.jpg",
-
-			categories: [filters.DESIGN],
-		},
-
-		// {
-		//   title: "YouTube Video",
-		//   type: types.VIDEO,
-		//   video: {
-		//     vimeo: false,
-		//     id: "PMNnEEEacCg",
-		//   },
-		//   thumbImage: "images/projects/project-3.jpg",
-
-		//   categories: [filters.YOUTUBE],
-		// },
-		// {
-		//   title: "Vimeo Video",
-		//   type: types.VIDEO,
-		//   video: {
-		//     vimeo: true,
-		//     id: "259411563",
-		//   },
-
-		//   thumbImage: "images/projects/project-4.jpg",
-		//   categories: [filters.VIMEO],
-		// },
-		// {
-		//   title: "Detailed Project 2",
-		//   type: types.DOCUMENT,
-		//   document: {
-		//     projectInfo:
-		//       "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-		//     client: "Ruby Clinton",
-		//     technologies: "iOS, HTML5, CSS3, PHP, Java",
-		//     industry: "Art & Design",
-		//     date: "July 16, 2019",
-		//     url: {
-		//       name: "www.example.com",
-		//       link: "https://www.example.com",
-		//     },
-		//     sliderImages: [
-		//       "images/projects/project-1.jpg",
-		//       "images/projects/project-2.jpg",
-		//     ],
-		//   },
-		//   thumbImage: "images/projects/project-5.jpg",
-		//   categories: [filters.DETAILED],
-		// },
-		// {
-		//   title: "Mockups Design 2",
-		//   type: types.IMAGE,
-
-		//   thumbImage: "images/projects/project-6.jpg",
-
-		//   categories: [filters.MOCKUPS],
-		// },
-	];
-
-	// initialize an Isotope object with configs
+	// Update visible projects when filterKey changes or when component mounts
 	useEffect(() => {
-		isotope.current = new Isotope(".portfolio-filter", {
-			itemSelector: ".filter-item",
-			layoutMode: "masonry",
-			originLeft: !isRtl,
+		const filteredProjects = projectsData.filter((project) => {
+			// Apply your filter logic here
+			return filterKey === "*" || project.categories.includes(filterKey);
 		});
+		setVisibleProjects(filteredProjects.slice(0, loadCount));
+	}, [filterKey, loadCount]);
 
-		// cleanup
-		return () => {
-			isotope.current.destroy();
-		};
-	}, [isRtl]);
-
-	// handling filter key change
-	useEffect(() => {
-		if (imagesLoaded) {
-			filterKey === "*"
-				? isotope.current.arrange({ filter: `*` })
-				: isotope.current.arrange({ filter: `.${filterKey}` });
-		}
-	}, [filterKey, imagesLoaded]);
+	// Load more projects handler
+	const loadMoreProjects = () => {
+		setLoadCount(loadCount + 3);
+	};
 
 	const handleFilterKeyChange = (key) => () => setFilterKey(key);
 
@@ -250,7 +64,7 @@ const Portfolio = () => {
 
 	return (
 		<>
-			<section id="portfolio" className={"section bg-light"}>
+			<section id="portfolio" className="section">
 				<div className={"container"}>
 					{/* Heading */}
 					<p className="text-center mb-2 wow fadeInUp">
@@ -295,8 +109,8 @@ const Portfolio = () => {
 					{/* Filter Menu end */}
 					<div className="portfolio wow fadeInUp">
 						<div className="row portfolio-filter filter-container g-4">
-							{projectsData.length > 0 &&
-								projectsData.map((project, index) => (
+							{visibleProjects.length > 0 &&
+								visibleProjects.map((project, index) => (
 									<div
 										className={
 											"col-sm-6 col-lg-4 filter-item " +
@@ -347,6 +161,14 @@ const Portfolio = () => {
 									</div>
 								))}
 						</div>
+					</div>
+					<div className="container text-center wow fadeInUp">
+						<button
+							className="text-center mt-4 btn btn-primary rounded-2 smooth-scroll wow rubberBand"
+							onClick={loadMoreProjects}
+						>
+							Ver más
+						</button>
 					</div>
 				</div>
 			</section>

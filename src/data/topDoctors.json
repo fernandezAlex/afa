@@ -1,11 +1,11 @@
 [
 	{
-		"url": "images/projects/top-doctors/top_doctors_logo.svg",
+		"url": "images/projects/top-doctors/topdoctors-logo.jpg",
 		"title": "Title 1",
 		"id": 1
 	},
 	{
-		"url": "images/projects/top-doctors/mock-01.png",
+		"url": "images/projects/top-doctors/mock-01.jpg",
 		"title": "Title 2",
 		"id": 2
 	},
@@ -15,18 +15,13 @@
 		"id": 3
 	},
 	{
-		"url": "images/projects/top-doctors/mock-03.png",
+		"url": "images/projects/top-doctors/mock-03.jpg",
 		"title": "Title 4",
 		"id": 4
 	},
 	{
-		"url": "images/projects/top-doctors/mock-04.png",
+		"url": "images/projects/top-doctors/mock-04.jpg",
 		"title": "Title 5",
 		"id": 5
-	},
-	{
-		"url": "images/projects/top-doctors/mock-05.png",
-		"title": "Title 6",
-		"id": 6
 	}
 ]

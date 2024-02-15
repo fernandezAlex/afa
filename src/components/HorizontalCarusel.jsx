@@ -34,7 +34,7 @@ const Card = ({ card }) => {
 		<div
 			key={card.id}
 			className="position-relative overflow-hidden fadeInUp"
-			style={{ height: "400px", width: "400px" }}
+			style={{ height: "500px", width: "500px" }}
 		>
 			<div
 				style={{
