@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
-import Isotope from "isotope-layout";
+import React, { useEffect, useState } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 import HorizontalCarusel from "../components/HorizontalCarusel";
 import topDoctors from "../data/topDoctors.json";
@@ -7,18 +6,12 @@ import mediamarkt from "../data/mediamarkt.json";
 import projectsData from "../data/projectsData.json";
 
 const Portfolio = () => {
-	// init one ref to store the future isotope object
-	const isotope = useRef();
-	// store the filter keyword in a state
 	const [filterKey, setFilterKey] = useState("*");
 	const [imagesLoaded, setimagesLoaded] = useState(0);
 	const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 	const [isOpen, setIsOpen] = useState(false);
 	const [visibleProjects, setVisibleProjects] = useState([]);
 	const [loadCount, setLoadCount] = useState(3);
-
-	const htmlElement = document.getElementsByTagName("html")[0];
-	const isRtl = htmlElement.getAttribute("dir") === "rtl";
 
 	const filters = {
 		WEB: "Web",
@@ -77,7 +70,7 @@ const Portfolio = () => {
 					<HorizontalCarusel data={topDoctors} />
 					<HorizontalCarusel data={mediamarkt} direction="left" />
 					{/* Filter Menu */}
-					<h2 className="text-8 fw-600 text-center mb-5 wow fadeInUp">
+					<h2 className="mt-4 text-8 fw-600 text-center mb-5 wow fadeInUp">
 						All my works in details
 					</h2>
 					<ul
@@ -163,6 +156,7 @@ const Portfolio = () => {
 						</div>
 					</div>
 					<div className="container text-center wow fadeInUp">
+						<br />
 						<button
 							className="text-center mt-4 btn btn-primary rounded-2 smooth-scroll wow rubberBand"
 							onClick={loadMoreProjects}
@@ -174,10 +168,13 @@ const Portfolio = () => {
 			</section>
 			{/* Modal */}
 			{isOpen && (
-				<ProjectDetailsModal
-					projectDetails={selectedProjectDetails}
-					setIsOpen={setIsOpen}
-				></ProjectDetailsModal>
+				<>
+					tupolla
+					<ProjectDetailsModal
+						projectDetails={selectedProjectDetails}
+						setIsOpen={setIsOpen}
+					></ProjectDetailsModal>
+				</>
 			)}
 		</>
 	);
