@@ -169,7 +169,6 @@ const Portfolio = () => {
 			{/* Modal */}
 			{isOpen && (
 				<>
-					tupolla
 					<ProjectDetailsModal
 						projectDetails={selectedProjectDetails}
 						setIsOpen={setIsOpen}

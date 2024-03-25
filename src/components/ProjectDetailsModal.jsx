@@ -98,11 +98,11 @@ const ProjectDetailsModal = ({ projectDetails, setIsOpen }) => {
 											{projectDetails?.title}
 										</h2>
 										<div className="row g-4">
-											<div className="col-md-7">
+											<div className="col-md-7" >
 												<Slider {...settings} ref={sliderRef}>
 													<div className="item">
 														<img
-															className="img-fluid"
+															className="img-fluid" style={{ margin: "auto" }} 
 															alt=""
 															src={projectDetails?.thumbImage}
 														/>
@@ -115,6 +115,7 @@ const ProjectDetailsModal = ({ projectDetails, setIsOpen }) => {
 																		className="img-fluid"
 																		alt=""
 																		src={image}
+																		style={{ margin: "auto" }} 
 																	/>
 																</div>
 															)

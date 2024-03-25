@@ -1,256 +1,257 @@
 [
-	{
-		"title": "Laia Rueda Beauty Care",
-		"type": "document",
-		"document": {
-			"projectInfo": "Creación de marca, logotipo, identidad corporativa, web y agenda digital",
-			"client": "Laia Rueda Beauty Care",
-			"technologies": "Photoshop, Figma, Nodemon, Dotenv, Express, Pug, Sequelize, Eslint and Multer, Node and Tailwind CSS",
-			"industry": "Beauty Care",
-			"date": "2023",
-			"url": {
-				"name": "https://www.laiabeautycare.com/",
-				"link": "https://www.instagram.com/laiabeautycare/"
-			},
-			"sliderImages": [
-				"images/projects/laia-rueda/web-mockup-insta-story.png",
-				"images/projects/laia-rueda/calendario-cita-iphone-mockup.png",
-				"images/projects/laia-rueda/servicios-iphone-mockup.png",
-				"images/projects/laia-rueda/logo-iniciales-post-ing-1080x1080.png"
-			]
-		},
-		"thumbImage": "images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-		"categories": ["DESIGN", "WEB"]
-	},
-	{
-		"title": "LABSALON97",
-		"type": "document",
-		"document": {
-			"projectInfo": "Creación de marca, logotipo, identidad corporativa.",
-			"client": "Labsalon 97",
-			"technologies": "Photoshop, Figma",
-			"industry": "Barber Shop",
-			"date": "2023",
-			"url": {
-				"name": "https://www.instagram.com/labsalon97/?hl=es",
-				"link": "https://www.instagram.com/labsalon97"
-			},
-			"sliderImages": [
-				"images/projects/labsalon97/mockup-card-cara.jpg",
-				"images/projects/labsalon97/card-mockup-dorso.jpg",
-				"images/projects/labsalon97/cartel-lab-salon97.jpg"
-			]
-		},
-		"thumbImage": "images/projects/labsalon97/logo-lab-salon97.jpg",
-		"categories": ["DESIGN"]
-	},
-	{
-		"title": "RACKETY",
-		"type": "document",
-		"document": {
-			"projectInfo": "Creación de marca, logotipo, identidad corporativa, web y agenda digital",
-			"client": "Laia Rueda Beauty Care",
-			"technologies": "Diseño e identidad corporativa y web",
-			"industry": "Beauty Care",
-			"date": "2023",
-			"url": {
-				"name": "https://www.laiabeautycare.com/",
-				"link": "https://www.instagram.com/laiabeautycare/"
-			},
-			"sliderImages": [
-				"images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-				"images/projects/standard-latino/project-1.jpg"
-			]
-		},
-		"thumbImage": "images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-		"categories": ["DESIGN", "WEB"]
-	},
-	{
-		"title": "INSPIRA YOGA",
-		"type": "document",
-		"document": {
-			"projectInfo": "Creación de marca, logotipo, identidad corporativa, web y agenda digital",
-			"client": "Laia Rueda Beauty Care",
-			"technologies": "Diseño e identidad corporativa y web",
-			"industry": "Beauty Care",
-			"date": "2023",
-			"url": {
-				"name": "https://www.laiabeautycare.com/",
-				"link": "https://www.instagram.com/laiabeautycare/"
-			},
-			"sliderImages": [
-				"images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-				"images/projects/standard-latino/project-1.jpg"
-			]
-		},
-		"thumbImage": "images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-		"categories": ["DESIGN", "WEB"]
-	},
-	{
-		"title": "TRIANART",
-		"type": "document",
-		"document": {
-			"projectInfo": "Creación de marca, logotipo, identidad corporativa, web y agenda digital",
-			"client": "Laia Rueda Beauty Care",
-			"technologies": "Diseño e identidad corporativa y web",
-			"industry": "Beauty Care",
-			"date": "2023",
-			"url": {
-				"name": "https://www.laiabeautycare.com/",
-				"link": "https://www.instagram.com/laiabeautycare/"
-			},
-			"sliderImages": [
-				"images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-				"images/projects/standard-latino/project-1.jpg"
-			]
-		},
-		"thumbImage": "images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-		"categories": ["DESIGN", "WEB"]
-	},
-	{
-		"title": "MEDIAMARKT",
-		"type": "document",
-		"document": {
-			"projectInfo": "Creación de marca, logotipo, identidad corporativa, web y agenda digital",
-			"client": "Laia Rueda Beauty Care",
-			"technologies": "Diseño e identidad corporativa y web",
-			"industry": "Beauty Care",
-			"date": "2023",
-			"url": {
-				"name": "https://www.laiabeautycare.com/",
-				"link": "https://www.instagram.com/laiabeautycare/"
-			},
-			"sliderImages": [
-				"images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-				"images/projects/standard-latino/project-1.jpg"
-			]
-		},
-		"thumbImage": "images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-		"categories": ["DESIGN", "WEB"]
-	},
-	{
-		"title": "TOPDOCTORS",
-		"type": "document",
-		"document": {
-			"projectInfo": "Creación de marca, logotipo, identidad corporativa, web y agenda digital",
-			"client": "Laia Rueda Beauty Care",
-			"technologies": "Diseño e identidad corporativa y web",
-			"industry": "Beauty Care",
-			"date": "2023",
-			"url": {
-				"name": "https://www.laiabeautycare.com/",
-				"link": "https://www.instagram.com/laiabeautycare/"
-			},
-			"sliderImages": [
-				"images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-				"images/projects/standard-latino/project-1.jpg"
-			]
-		},
-		"thumbImage": "images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-		"categories": ["DESIGN", "WEB"]
-	},
-	{
-		"title": "Standar Latino",
-		"type": "document",
-		"document": {
-			"projectInfo": "Creación de logotipo y diseño cartel promocional de la escuela de baile.",
-			"client": "Standar Latino Dance School",
-			"technologies": "Diseño e identidad corporativa",
-			"industry": "Baile",
-			"date": "2017",
-			"url": {
-				"name": "https://www.instagram.com/standardlatino/",
-				"link": "https://www.instagram.com/standardlatino/"
-			},
-			"sliderImages": [
-				"images/projects/standard-latino/logo-standard-2.jpg",
-				"images/projects/standard-latino/project-1.jpg"
-			]
-		},
-		"thumbImage": "images/projects/standard-latino/logo-standard.jpg",
-		"categories": ["DESIGN"]
-	},
-	{
-		"title": "YUGO",
-		"type": "document",
-		"document": {
-			"projectInfo": "Creación de identidad corporativa.",
-			"client": "Yugo shushi & burguer fusion food",
-			"technologies": "Diseño, creación de marca, carta y papelería corporativa.",
-			"industry": "Fusion food",
-			"date": "2018",
-			"url": {
-				"name": "https://www.facebook.com/yugofusion",
-				"link": "https://www.facebook.com/yugofusion/photos?locale=en_GB"
-			},
-			"sliderImages": [
-				"images/projects/yugo-fusion-food/yugo-carta.png",
-				"images/projects/yugo-fusion-food/yugo-gourmet-logo.jpg",
-				"images/projects/yugo-fusion-food/yugo-shushi-mock-up.jpg",
-				"images/projects/yugo-fusion-food/yugo-carteleria-bus.jpg",
-				"images/projects/yugo-fusion-food/yugo-menu.jpg",
-				"images/projects/yugo-fusion-food/yugo-mapa.jpg",
-				"images/projects/yugo-fusion-food/yugo-cartel-domicilio.png",
-				"images/projects/yugo-fusion-food/yugo-flyers-menu.jpg",
-				"images/projects/yugo-fusion-food/yugo-flyers.jpg",
-				"images/projects/yugo-fusion-food/yugo-cartel-promo.jpg",
-				"images/projects/yugo-fusion-food/yugo-logo-carteles.jpg"
-			]
-		},
-		"thumbImage": "images/projects/yugo-fusion-food/yugo_logotype.jpg",
-		"categories": ["DESIGN"]
-	},
-	{
-		"title": "Atlantida Flyer Luciano",
-		"type": "image",
-		"thumbImage": "images/projects/flyer-atlantida-luciano.jpg",
-		"categories": ["DESIGN"]
-	},
-	{
-		"title": "Pizza Roma",
-		"type": "image",
-		"thumbImage": "images/projects/pizza-roma-logo.png",
-		"categories": ["DESIGN"]
-	},
-	{
-		"title": "Orsom Catamaran",
-		"type": "document",
-		"document": {
-			"projectInfo": "Creación de identidad corporativa.",
-			"client": "Orsom Catamaran Barcelona",
-			"technologies": "Diseño logotipo y folleto",
-			"industry": "Náutica",
-			"date": "2018",
-			"url": {
-				"name": "https://barcelona-orsom.com/es/",
-				"link": "https://barcelona-orsom.com/es/"
-			},
-			"sliderImages": [
-				"images/projects/orsom-catamaran/1.jpg",
-				"images/projects/orsom-catamaran/2.jpg",
-				"images/projects/orsom-catamaran/3.jpg",
-				"images/projects/orsom-catamaran/logo-orsom-catamaran.jpg"
-			]
-		},
-		"thumbImage": "images/projects/orsom-catamaran/0.jpg",
-		"categories": ["DESIGN"]
-	},
-	{
-		"title": "Centro de Oftalmología Bonafonte",
-		"type": "image",
-		"thumbImage": "images/projects/Centro-Oftalmología-Bonafonte.jpg",
-		"categories": ["DESIGN"]
-	},
-	{
-		"title": "Sabuma heladería ecológica",
-		"type": "image",
-		"thumbImage": "images/projects/SABUMA-GELADERIA-ECOLÒGICA.jpg",
-		"categories": ["DESIGN"]
-	},
-	{
-		"title": "Sabuma heladería ecológica",
-		"type": "image",
-		"thumbImage": "images/projects/elefante-diseño-tatuaje.jpg",
-		"categories": ["DESIGN"]
-	}
+  {
+    "title": "Laia Rueda Beauty Care",
+    "type": "document",
+    "document": {
+      "projectInfo": "Creación de marca, logotipo, identidad corporativa, web y agenda digital",
+      "client": "Laia Rueda Beauty Care",
+      "technologies": "Photoshop, Figma, Nodemon, Dotenv, Express, Pug, Sequelize, Eslint and Multer, Node and Tailwind CSS",
+      "industry": "Beauty Care",
+      "date": "2023",
+      "url": {
+        "name": "https://www.laiabeautycare.com/",
+        "link": "https://www.instagram.com/laiabeautycare/"
+      },
+      "sliderImages": [
+        "images/projects/laia-rueda/web-mockup-insta-story.png",
+        "images/projects/laia-rueda/calendario-cita-iphone-mockup.png",
+        "images/projects/laia-rueda/servicios-iphone-mockup.png",
+        "images/projects/laia-rueda/logo-iniciales-post-ing-1080x1080.png"
+      ]
+    },
+    "thumbImage": "images/projects/laia-rueda/logo-post-ing-1080x1080.png",
+    "categories": ["DESIGN", "WEB"]
+  },
+  {
+    "title": "LABSALON97",
+    "type": "document",
+    "document": {
+      "projectInfo": "Creación de marca, logotipo, identidad corporativa.",
+      "client": "Labsalon 97",
+      "technologies": "Photoshop, Figma",
+      "industry": "Barber Shop",
+      "date": "2023",
+      "url": {
+        "name": "https://www.instagram.com/labsalon97/?hl=es",
+        "link": "https://www.instagram.com/labsalon97"
+      },
+      "sliderImages": [
+        "images/projects/labsalon97/mockup-card-cara.jpg",
+        "images/projects/labsalon97/card-mockup-dorso.jpg",
+        "images/projects/labsalon97/cartel-lab-salon97.jpg"
+      ]
+    },
+    "thumbImage": "images/projects/labsalon97/logo-lab-salon97.jpg",
+    "categories": ["DESIGN"]
+  },
+  {
+    "title": "RACKETY",
+    "type": "document",
+    "document": {
+      "projectInfo": "Colaboración en desarrolo de la web app",
+      "client": "RACKETY",
+      "technologies": "React, Next, Tailwind CSS, Node y PostgreSQL",
+      "industry": "Padel Sport",
+      "date": "2023",
+      "url": {
+        "name": "https://rackety.tv/",
+        "link": "https://rackety.tv/"
+      },
+      "sliderImages": [
+        "images/projects/rackety/home-mobile.gif",
+        "images/projects/rackety/Macbook-Air-rackety.tv.png"
+      ]
+    },
+    "thumbImage": "images/projects/rackety/logo-black-blue.webp",
+    "categories": ["WEB"]
+  },
+  {
+    "title": "INSPIRA YOGA",
+    "type": "document",
+    "document": {
+      "projectInfo": "Creación de marca, logotipo Y página web",
+      "client": "Inspira Yoga Escuela Esplugas",
+      "technologies": "Adobe Illustrator, React js, Styled Components, Mongo DB, HTML5, Mustache y Node js",
+      "industry": "Yoga",
+      "date": "2022",
+      "url": {
+        "name": "https://inspira-yoga-escuela.netlify.app/",
+        "link": "https://inspira-yoga-escuela.netlify.app/"
+      },
+      "sliderImages": [
+        "images/projects/inspira-yoga/mobile-inspira-yoga.gif",
+        "images/projects/inspira-yoga/Macbook-Air-inspira-yoga-1.png",
+        "images/projects/inspira-yoga/Macbook-Air-inspira-yoga-3.png"
+      ]
+    },
+    "thumbImage": "images/projects/inspira-yoga/inspira-yoga.jpg",
+    "categories": ["DESIGN", "WEB"]
+  },
+  {
+    "title": "TRIANART",
+    "type": "document",
+    "document": {
+      "projectInfo": "Creación de marca, logotipo, identidad corporativa, contenido redes sociales y página web",
+      "client": "Trianart",
+      "technologies": "Ecommerce, tienda online y diseño e identidad corporativa",
+      "industry": "Joyería",
+      "date": "2022",
+      "url": {
+        "name": "https://trianart.shop/",
+        "link": "https://trianart.shop/"
+      },
+      "sliderImages": [
+        "images/projects/laia-rueda/logo-post-ing-1080x1080.png",
+        "images/projects/standard-latino/project-1.jpg"
+      ]
+    },
+    "thumbImage": "images/projects/trianart/trianart-logo-con-fondo.png",
+    "categories": ["DESIGN", "WEB"]
+  },
+  {
+    "title": "MEDIAMARKT",
+    "type": "document",
+    "document": {
+      "projectInfo": "Creación de marca, logotipo, identidad corporativa, web y agenda digital",
+      "client": "Laia Rueda Beauty Care",
+      "technologies": "Diseño e identidad corporativa y web",
+      "industry": "Beauty Care",
+      "date": "2023",
+      "url": {
+        "name": "https://www.laiabeautycare.com/",
+        "link": "https://www.instagram.com/laiabeautycare/"
+      },
+      "sliderImages": [
+        "images/projects/laia-rueda/logo-post-ing-1080x1080.png",
+        "images/projects/standard-latino/project-1.jpg"
+      ]
+    },
+    "thumbImage": "images/projects/mediamarkt/mediamarkt-logo.png",
+    "categories": ["DESIGN", "WEB"]
+  },
+  {
+    "title": "TOPDOCTORS",
+    "type": "document",
+    "document": {
+      "projectInfo": "Creación de marca, logotipo, identidad corporativa, web y agenda digital",
+      "client": "Laia Rueda Beauty Care",
+      "technologies": "Diseño e identidad corporativa y web",
+      "industry": "Beauty Care",
+      "date": "2023",
+      "url": {
+        "name": "https://www.laiabeautycare.com/",
+        "link": "https://www.instagram.com/laiabeautycare/"
+      },
+      "sliderImages": [
+        "images/projects/laia-rueda/logo-post-ing-1080x1080.png",
+        "images/projects/standard-latino/project-1.jpg"
+      ]
+    },
+    "thumbImage": "images/projects/top-doctors/topdoctors-logo.jpg",
+    "categories": ["DESIGN", "WEB"]
+  },
+  {
+    "title": "Standar Latino",
+    "type": "document",
+    "document": {
+      "projectInfo": "Creación de logotipo y diseño cartel promocional de la escuela de baile.",
+      "client": "Standar Latino Dance School",
+      "technologies": "Diseño e identidad corporativa",
+      "industry": "Baile",
+      "date": "2017",
+      "url": {
+        "name": "https://www.instagram.com/standardlatino/",
+        "link": "https://www.instagram.com/standardlatino/"
+      },
+      "sliderImages": [
+        "images/projects/standard-latino/logo-standard-2.jpg",
+        "images/projects/standard-latino/project-1.jpg"
+      ]
+    },
+    "thumbImage": "images/projects/standard-latino/logo-standard.jpg",
+    "categories": ["DESIGN"]
+  },
+  {
+    "title": "YUGO",
+    "type": "document",
+    "document": {
+      "projectInfo": "Creación de identidad corporativa.",
+      "client": "Yugo shushi & burguer fusion food",
+      "technologies": "Diseño, creación de marca, carta y papelería corporativa.",
+      "industry": "Fusion food",
+      "date": "2018",
+      "url": {
+        "name": "https://www.facebook.com/yugofusion",
+        "link": "https://www.facebook.com/yugofusion/photos?locale=en_GB"
+      },
+      "sliderImages": [
+        "images/projects/yugo-fusion-food/yugo-carta.png",
+        "images/projects/yugo-fusion-food/yugo-gourmet-logo.jpg",
+        "images/projects/yugo-fusion-food/yugo-shushi-mock-up.jpg",
+        "images/projects/yugo-fusion-food/yugo-carteleria-bus.jpg",
+        "images/projects/yugo-fusion-food/yugo-menu.jpg",
+        "images/projects/yugo-fusion-food/yugo-mapa.jpg",
+        "images/projects/yugo-fusion-food/yugo-cartel-domicilio.png",
+        "images/projects/yugo-fusion-food/yugo-flyers-menu.jpg",
+        "images/projects/yugo-fusion-food/yugo-flyers.jpg",
+        "images/projects/yugo-fusion-food/yugo-cartel-promo.jpg",
+        "images/projects/yugo-fusion-food/yugo-logo-carteles.jpg"
+      ]
+    },
+    "thumbImage": "images/projects/yugo-fusion-food/yugo_logotype.jpg",
+    "categories": ["DESIGN"]
+  },
+  {
+    "title": "Atlantida Flyer Luciano",
+    "type": "image",
+    "thumbImage": "images/projects/flyer-atlantida-luciano.jpg",
+    "categories": ["DESIGN"]
+  },
+  {
+    "title": "Pizza Roma",
+    "type": "image",
+    "thumbImage": "images/projects/pizza-roma-logo.png",
+    "categories": ["DESIGN"]
+  },
+  {
+    "title": "Orsom Catamaran",
+    "type": "document",
+    "document": {
+      "projectInfo": "Creación de identidad corporativa.",
+      "client": "Orsom Catamaran Barcelona",
+      "technologies": "Diseño logotipo y folleto",
+      "industry": "Náutica",
+      "date": "2018",
+      "url": {
+        "name": "https://barcelona-orsom.com/es/",
+        "link": "https://barcelona-orsom.com/es/"
+      },
+      "sliderImages": [
+        "images/projects/orsom-catamaran/1.jpg",
+        "images/projects/orsom-catamaran/2.jpg",
+        "images/projects/orsom-catamaran/3.jpg",
+        "images/projects/orsom-catamaran/logo-orsom-catamaran.jpg"
+      ]
+    },
+    "thumbImage": "images/projects/orsom-catamaran/0.jpg",
+    "categories": ["DESIGN"]
+  },
+  {
+    "title": "Centro de Oftalmología Bonafonte",
+    "type": "image",
+    "thumbImage": "images/projects/Centro-Oftalmología-Bonafonte.jpg",
+    "categories": ["DESIGN"]
+  },
+  {
+    "title": "Sabuma heladería ecológica",
+    "type": "image",
+    "thumbImage": "images/projects/SABUMA-GELADERIA-ECOLÒGICA.jpg",
+    "categories": ["DESIGN"]
+  },
+  {
+    "title": "Sabuma heladería ecológica",
+    "type": "image",
+    "thumbImage": "images/projects/elefante-diseño-tatuaje.jpg",
+    "categories": ["DESIGN"]
+  }
 ]
