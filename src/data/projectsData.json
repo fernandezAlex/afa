@@ -79,6 +79,7 @@
 				"link": "https://inspira-yoga-escuela.netlify.app/"
 			},
 			"sliderImages": [
+				"images/projects/inspira-yoga/desktop-inspira-yoga.gif",
 				"images/projects/inspira-yoga/mobile-inspira-yoga.gif",
 				"images/projects/inspira-yoga/Macbook-Air-inspira-yoga-1.png",
 				"images/projects/inspira-yoga/Macbook-Air-inspira-yoga-3.png"
@@ -91,9 +92,9 @@
 		"title": "TRIANART",
 		"type": "document",
 		"document": {
-			"projectInfo": "Creación de marca, logotipo, identidad corporativa, contenido redes sociales y página web",
+			"projectInfo": "Creación de marca, logotipo, identidad corporativa, fotografía, contenido redes sociales y tienda online",
 			"client": "Trianart",
-			"technologies": "Ecommerce, tienda online y diseño e identidad corporativa",
+			"technologies": "Tienda online con WooComerce y WordPress. Fotografia Panasonic Lumix DC-FZ83",
 			"industry": "Joyería",
 			"date": "2022",
 			"url": {
@@ -101,11 +102,24 @@
 				"link": "https://trianart.shop/"
 			},
 			"sliderImages": [
-				"images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-				"images/projects/standard-latino/project-1.jpg"
+				"images/projects/trianart/desktop-trianart.gif",
+				"images/projects/trianart/desktop-conjuntos-trianart.gif",
+				"images/projects/trianart/desktop-listado-productos-trianart.gif",
+				"images/projects/trianart/desktop-producto-trianart.gif",
+				"images/projects/trianart/desktop-conjuntos-trianart.gif",
+				"images/projects/trianart/mobil-packagin-trianart.png",
+				"images/projects/trianart/mobile-carrito-trianart.png",
+				"images/projects/trianart/mobile-ficha-producto.png",
+				"images/projects/trianart/mobile-ficha-producto-trinart.png",
+				"images/projects/trianart/foto-model1-trianart.jpg",
+				"images/projects/trianart/foto-model4-trianart.jpg",
+				"images/projects/trianart/foto-model6-trianart.jpg",
+				"images/projects/trianart/foto-model2-trianart.jpg",
+				"images/projects/trianart/foto-model7-trianart.jpg",
+				"images/projects/trianart/foto-model8-trianart.jpg"
 			]
 		},
-		"thumbImage": "images/projects/trianart/trianart-logo-con-fondo.png",
+		"thumbImage": "images/projects/trianart/trianart-logo-con-fondo.jpg",
 		"categories": ["DESIGN", "WEB"]
 	},
 	{
