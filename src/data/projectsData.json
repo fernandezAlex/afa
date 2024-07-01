@@ -16,6 +16,8 @@
 				"images/projects/laia-rueda/web-mockup-insta-story.png",
 				"images/projects/laia-rueda/calendario-cita-iphone-mockup.png",
 				"images/projects/laia-rueda/servicios-iphone-mockup.png",
+				"images/projects/laia-rueda/tarjeta-corporativa-laia-rueda-cara.png",
+				"images/projects/laia-rueda/tarjeta-corporativa-laia-rueda-dorso.png",
 				"images/projects/laia-rueda/logo-iniciales-post-ing-1080x1080.png"
 			]
 		},
@@ -111,6 +113,7 @@
 				"images/projects/trianart/mobile-carrito-trianart.png",
 				"images/projects/trianart/mobile-ficha-producto.png",
 				"images/projects/trianart/mobile-ficha-producto-trinart.png",
+				"images/projects/trianart/tarjeta-corporativa-trianart-cara.png",
 				"images/projects/trianart/foto-model1-trianart.jpg",
 				"images/projects/trianart/foto-model4-trianart.jpg",
 				"images/projects/trianart/foto-model6-trianart.jpg",
@@ -120,70 +123,63 @@
 			]
 		},
 		"thumbImage": "images/projects/trianart/trianart-logo-con-fondo.jpg",
-		"categories": ["DESIGN", "WEB"]
+		"categories": ["DESIGN", "WEB", "PHOTOGRAPHY"]
 	},
 	{
 		"title": "MEDIAMARKT",
 		"type": "document",
 		"document": {
-			"projectInfo": "Creación de marca, logotipo, identidad corporativa, web y agenda digital",
-			"client": "Laia Rueda Beauty Care",
-			"technologies": "Diseño e identidad corporativa y web",
-			"industry": "Beauty Care",
-			"date": "2023",
+			"projectInfo": "Gestión y desarrollo del sitio web, creando páginas especiales y campañas para marcas líderes del mercado, como Apple, Samsung, Bosch, Xiaomi, entre otras. También fui responsable de crear formularios para páginas con partners como AXA, TotalEnergies, Movistar y gestionar los leads en la base de datos.",
+			"client": "Mediamarkt España",
+			"technologies": "HTML5, CSS, SASS, JS, JQUERY, PHP, Node JS, SQL DB, React JS, Git",
+			"industry": "Comercio electrónico",
+			"date": "2019-2022",
 			"url": {
-				"name": "https://www.laiabeautycare.com/",
-				"link": "https://www.instagram.com/laiabeautycare/"
+				"name": "https://www.mediamarkt.es/",
+				"link": "https://www.mediamarkt.es/"
 			},
 			"sliderImages": [
-				"images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-				"images/projects/standard-latino/project-1.jpg"
+				"images/projects/mediamarkt/mobile-producto-mediamarkt.png",
+				"images/projects/mediamarkt/desktop-servicios-mediamarkt.jpg",
+				"images/projects/mediamarkt/edp-mediamarkt.jpg",
+				"images/projects/mediamarkt/mock-02.jpg",
+				"images/projects/mediamarkt/mock-03.jpg",
+				"images/projects/mediamarkt/b2b.png",
+				"images/projects/mediamarkt/mock-04.jpg",
+				"images/projects/mediamarkt/mock-05.jpg",
+				"images/projects/mediamarkt/mock-08.jpg",
+				"images/projects/mediamarkt/mock-09.jpg"
 			]
 		},
 		"thumbImage": "images/projects/mediamarkt/mediamarkt-logo.png",
 		"categories": ["DESIGN", "WEB"]
 	},
 	{
-		"title": "TOPDOCTORS",
+		"title": "TOP DOCTORS",
 		"type": "document",
 		"document": {
-			"projectInfo": "Creación de marca, logotipo, identidad corporativa, web y agenda digital",
-			"client": "Laia Rueda Beauty Care",
-			"technologies": "Diseño e identidad corporativa y web",
-			"industry": "Beauty Care",
-			"date": "2023",
+			"projectInfo": "Tuve la responsabilidad de crear y desarrollar las páginas de la web de la compañia, boletines informativos y productos de la compañía. Además, fui el encargado del diseño de iconografía. También trabajé en un proyecto donde creamos páginas personalizadas para los doctores, utilizando y programando en WordPress.",
+			"client": "Top doctors SL",
+			"technologies": "HTML5, CSS, SAAS, BULMA, JS, JQUERY, Vue JS, Nuxt, Git",
+			"industry": "Medicina Online y Farmacia",
+			"date": "2018-2019",
 			"url": {
-				"name": "https://www.laiabeautycare.com/",
-				"link": "https://www.instagram.com/laiabeautycare/"
+				"name": "https://www.topdoctors.es/",
+				"link": "https://www.topdoctors.es/"
 			},
 			"sliderImages": [
-				"images/projects/laia-rueda/logo-post-ing-1080x1080.png",
-				"images/projects/standard-latino/project-1.jpg"
+				"images/projects/top-doctors/home-desktop-topdoctors.png",
+				"images/projects/top-doctors/seleccion-topdoctors-desktop.gif",
+				"images/projects/top-doctors/mobile-topdoctors.gif",
+				"images/projects/top-doctors/home-topdoctors-mobile.gif",
+				"images/projects/top-doctors/mock-03.jpg",
+				"images/projects/top-doctors/sintomas-page-topdoctors.jpg",
+				"images/projects/top-doctors/web-doctores-topdoctord.png",
+				"images/projects/top-doctors/farmacia-home-topdoctors.png"
 			]
 		},
 		"thumbImage": "images/projects/top-doctors/topdoctors-logo.jpg",
 		"categories": ["DESIGN", "WEB"]
-	},
-	{
-		"title": "Standar Latino",
-		"type": "document",
-		"document": {
-			"projectInfo": "Creación de logotipo y diseño cartel promocional de la escuela de baile.",
-			"client": "Standar Latino Dance School",
-			"technologies": "Diseño e identidad corporativa",
-			"industry": "Baile",
-			"date": "2017",
-			"url": {
-				"name": "https://www.instagram.com/standardlatino/",
-				"link": "https://www.instagram.com/standardlatino/"
-			},
-			"sliderImages": [
-				"images/projects/standard-latino/logo-standard-2.jpg",
-				"images/projects/standard-latino/project-1.jpg"
-			]
-		},
-		"thumbImage": "images/projects/standard-latino/logo-standard.jpg",
-		"categories": ["DESIGN"]
 	},
 	{
 		"title": "YUGO",
@@ -213,6 +209,27 @@
 			]
 		},
 		"thumbImage": "images/projects/yugo-fusion-food/yugo_logotype.jpg",
+		"categories": ["DESIGN"]
+	},
+	{
+		"title": "Standar Latino",
+		"type": "document",
+		"document": {
+			"projectInfo": "Creación de logotipo y diseño cartel promocional de la escuela de baile.",
+			"client": "Standar Latino Dance School",
+			"technologies": "Diseño e identidad corporativa",
+			"industry": "Baile",
+			"date": "2017",
+			"url": {
+				"name": "https://www.instagram.com/standardlatino/",
+				"link": "https://www.instagram.com/standardlatino/"
+			},
+			"sliderImages": [
+				"images/projects/standard-latino/logo-standard-2.jpg",
+				"images/projects/standard-latino/project-1.jpg"
+			]
+		},
+		"thumbImage": "images/projects/standard-latino/logo-standard.jpg",
 		"categories": ["DESIGN"]
 	},
 	{
@@ -248,24 +265,6 @@
 			]
 		},
 		"thumbImage": "images/projects/orsom-catamaran/0.jpg",
-		"categories": ["DESIGN"]
-	},
-	{
-		"title": "Centro de Oftalmología Bonafonte",
-		"type": "image",
-		"thumbImage": "images/projects/Centro-Oftalmología-Bonafonte.jpg",
-		"categories": ["DESIGN"]
-	},
-	{
-		"title": "Sabuma heladería ecológica",
-		"type": "image",
-		"thumbImage": "images/projects/SABUMA-GELADERIA-ECOLÒGICA.jpg",
-		"categories": ["DESIGN"]
-	},
-	{
-		"title": "Sabuma heladería ecológica",
-		"type": "image",
-		"thumbImage": "images/projects/elefante-diseño-tatuaje.jpg",
 		"categories": ["DESIGN"]
 	}
 ]

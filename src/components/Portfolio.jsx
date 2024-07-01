@@ -11,7 +11,7 @@ const Portfolio = () => {
 	const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 	const [isOpen, setIsOpen] = useState(false);
 	const [visibleProjects, setVisibleProjects] = useState([]);
-	const [loadCount, setLoadCount] = useState(3);
+	const [loadCount, setLoadCount] = useState(6);
 
 	const filters = {
 		WEB: "Web",
@@ -124,7 +124,7 @@ const Portfolio = () => {
 												<div
 													className="portfolio-overlay"
 													onClick={() => {
-														setSelectedProjectDetails(projectsData[index]);
+														setSelectedProjectDetails(visibleProjects[index]);
 														setIsOpen(true);
 													}}
 												>
@@ -146,7 +146,9 @@ const Portfolio = () => {
 														<h5 className="text-white text-5">
 															{project?.title}
 														</h5>
-														<span className="text-light">Category</span>
+														<span className="text-light">
+															{project?.categories.join(" / ")}
+														</span>
 													</div>
 												</div>
 											</div>
@@ -157,12 +159,14 @@ const Portfolio = () => {
 					</div>
 					<div className="container text-center wow fadeInUp">
 						<br />
-						<button
-							className="text-center mt-4 btn btn-primary rounded-2 smooth-scroll wow rubberBand"
-							onClick={loadMoreProjects}
-						>
-							Ver más
-						</button>
+						{loadCount < projectsData.length && (
+							<button
+								className="text-center mt-4 btn btn-primary rounded-2 smooth-scroll wow rubberBand"
+								onClick={loadMoreProjects}
+							>
+								Ver más
+							</button>
+						)}
 					</div>
 				</div>
 			</section>
