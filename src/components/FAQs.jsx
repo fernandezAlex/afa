@@ -5,7 +5,6 @@ import faqsDataES from "../data/faqs-es.json";
 import { useTranslation } from "react-i18next";
 
 const FAQs = () => {
-	const { t } = useTranslation();
 	const { i18n } = useTranslation();
 	const faqsData = i18n.language === "es" ? faqsDataES : faqsDataEN;
 
