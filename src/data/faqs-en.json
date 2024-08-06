@@ -1,0 +1,50 @@
+[
+	{
+		"question": "What services do you offer?",
+		"answer": "At AFA Creations, we offer graphic design, web development, photography and videography, digital agendas, SEO and content marketing services tailored to the needs of small or large businesses, projects, and brands."
+	},
+	{
+		"question": "What makes AFA Creations different from other digital agencies?",
+		"answer": "Our key differentiators include high-quality services at affordable prices, comprehensive 360-degree digital solutions, advanced AI and technology use, and personalized solutions for small and big proyects. Contact us and we will make a quote according to your needs."
+	},
+	{
+		"question": "How much do your services cost?",
+		"answer": "We offer competitive pricing: website development for €600 with a monthly maintenance fee of €50, branding creation for €400, and photography or video sessions from €50 to €150."
+	},
+	{
+		"question": "Do you offer your services as a freelancer or through a company for other businesses and projects?",
+		"answer": "Yes, at AFA Creations, we offer our services both as a freelancer and through our company to other businesses and projects. Whether you need a dedicated freelancer or a comprehensive digital agency, we are equipped to handle your needs efficiently and professionally."
+	},
+	{
+		"question": "Can I see examples of your previous work?",
+		"answer": "Yes, you can view our portfolio showcasing our expertise in graphic design, web development, and photography on our website at www.afacreations.com."
+	},
+	{
+		"question": "Can you work with existing CMS like WordPress?",
+		"answer": "Yes, we have extensive experience with WordPress and can develop custom websites using various content management systems."
+	},
+	{
+		"question": "How do I get started with your services?",
+		"answer": "Contact us through our website, email us at alex.fernandez.arroyo@gmail.com, or call us at +34 666956636. We’ll discuss your project requirements and provide a tailored solution."
+	},
+	{
+		"question": "Do you offer maintenance and support after the project is completed?",
+		"answer": "Yes, we offer ongoing maintenance and support to ensure your digital solutions remain up-to-date and fully functional, with a monthly maintenance fee of €50 for websites."
+	},
+	{
+		"question": "What is your turnaround time for projects?",
+		"answer": "The turnaround time depends on the project’s complexity. Typically, a standard website development project takes about 4-6 weeks from start to finish."
+	},
+	{
+		"question": "How do you handle payments?",
+		"answer": "We offer flexible payment options, including bank transfer and PayPal. Currently, we do not require clients to be registered as freelancers to receive payments."
+	},
+	{
+		"question": "What technologies do you use in your web development projects?",
+		"answer": "We use modern technologies like HTML5, CSS, JavaScript (ES6), React, SASS, Bootstrap, Tailwind, Node.js, PHP, Express, MongoDB, SQL, WordPress, Typescript, TDD/Jest, agile methodologies, and Scrum."
+	},
+	{
+		"question": "Do you offer custom solutions for businesses that are not listed in your standard services?",
+		"answer": "Yes, we offer flexible and adaptable solutions to meet specific client needs. Contact us to discuss your unique requirements, and we’ll create a bespoke service for you."
+	}
+]

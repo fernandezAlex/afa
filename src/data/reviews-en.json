@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Alberto E. Porciani",
+		"position": "President and CEO at Top Doctors Europe & Latam",
+		"src": "images/testimonial/alberto-porcciani.jpeg",
+		"desc": "Alex significantly improved our digital presence at Topdoctors. He led the project to develop customized doctor pages using WordPress, integrating our database seamlessly. His expertise in front-end development and UI/UX design was evident in the outstanding results. Alex is dedicated, creative, and highly skilled. I highly recommend him as a valuable team member."
+	},
+	{
+		"name": "Oscar Panadés Escobar",
+		"position": "IT Development Coordinator",
+		"src": "images/testimonial/oscar-panades.jpeg",
+		"desc": "Having Alex on the online and web team of Mediamarkt Spain for 4 years was crucial in enhancing our web projects at MediaMarkt. His skills in front-end development and UI/UX design contributed to the success of numerous campaigns for leading brands. Alex is efficient, creative, and was an important part of the team."
+	},
+	{
+		"name": "Carlos del Campo Rodriguez",
+		"position": "Software Development Engineering Manager at Travelport",
+		"src": "images/testimonial/carlos-del-campo.jpeg",
+		"desc": "Working with Alex at Travelport has been a remarkable experience. His contributions to the development of new features and improvements in our Smartpoint Cloud project have been exceptional. Alex's expertise in full stack development and his ability to create seamless user interfaces have greatly enhanced our product. He is proactive, technically skilled, and a dependable team member."
+	},
+	{
+		"name": "Aleix Morte",
+		"position": "Co-Founder at Rackety",
+		"src": "images/testimonial/aleix-morte.jpeg",
+		"desc": "Collaborating with Alex on our Rackety project was a great decision. His expertise in web development and design played a pivotal role in bringing our vision to life. Alex's ability to integrate complex features with a user-friendly design was outstanding. He is professional, innovative, and highly reliable. I highly recommend his services for any project."
+	},
+	{
+		"name": "Sergio Atienza",
+		"position": "Co-founder at Inspira Yoga Esplugas",
+		"src": "images/testimonial/sergio-yoga.jpg",
+		"desc": "We entrusted Alex with creating and managing the Inspira Yoga Esplugas website, and it was one of the best decisions we made. His expertise in web development and design transformed our vision into a beautiful, user-friendly site. Alex provided a personal and professional touch, making the entire process smooth and enjoyable. He is highly skilled, attentive, and a pleasure to work with. I highly recommend his services."
+	}
+]

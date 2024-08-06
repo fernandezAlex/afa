@@ -28,6 +28,7 @@ import BottomHeaderVideoBgIntro from "./components/themes/bottomHeader/IntroVide
 import StandardMenuDefaultIntro from "./components/themes/StandardMenu/IntroDefault";
 import StandardMenuImgBgIntro from "./components/themes/StandardMenu/IntroImageBg";
 import StandardMenuVideoBgIntro from "./components/themes/StandardMenu/IntroVideoBg";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
 	const appliedTheme = appliedConfig.appliedTheme;
@@ -146,6 +147,7 @@ function App() {
 					</span>
 				</Tooltip>
 			</div>
+			<SpeedInsights />
 		</>
 	);
 }
