@@ -37,7 +37,7 @@ const FullScreenVideoBgIntro = () => {
           />
         </div>
         <div className="hero-content pt-5 d-flex fullscreen">
-          <div className="container mt-auto pt-4">
+          <div className="container mt-5 pt-4">
             <div className="row">
               <div className="col-lg-7 mt-4 text-center text-lg-start align-self-center order-0 order-lg-0">
                 <h1 className="text-12 fw-300 mb-0 text-uppercase">
@@ -50,13 +50,14 @@ const FullScreenVideoBgIntro = () => {
                         t("intro-designer"),
                         t("intro-developer"),
                         t("intro-web-app"),
+                        t("ia"),
                       ],
                       autoStart: true,
                       loop: true,
                     }}
                   />
                 </h2>
-                <p className="text-5">{t("intro-based")}</p>
+                {/* <p className="text-5">{t("intro-based")}</p> */}
                 <Link
                   className="btn btn-dark rounded-0 smooth-scroll mt-3"
                   smooth="easeInOutQuint"

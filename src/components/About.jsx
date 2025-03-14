@@ -41,11 +41,11 @@ const AboutUs = () => {
                 <p className="text-muted fw-500 mb-0">Email:</p>
                 <p className="text-4 fw-600 mb-0">
                   <a className="link-dark" href="mailto:chat@callum.com">
-                    info@alex-creations.com
+                    info@afacreations.com
                   </a>
                 </p>
               </div>
-              <div
+              {/* <div
                 className="col-6 col-lg-4 wow fadeInUp"
                 data-wow-delay="0.4s"
               >
@@ -53,7 +53,7 @@ const AboutUs = () => {
                 <p className="text-4 text-dark fw-600 mb-0">
                   {t("intro-based")}
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div

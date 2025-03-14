@@ -14,9 +14,7 @@
 }
 
 .img-intro {
-	filter: drop-shadow(
-		0 0 10px rgba(0, 0, 0, .4)
-	);
+	filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.4));
 }
 
 .img-about-container {
@@ -31,6 +29,12 @@
 .height-horizontal-carousel {
 	height: 50vh;
 }
+@media (min-width: 990px) {
+	.img-intro {
+		position: relative;
+		bottom: -10vh;
+	}
+}
 
 @media (max-width: 999px) {
 	.height-horizontal-carousel {
@@ -39,11 +43,11 @@
 }
 
 @media (max-width: 480px) {
-	.img-intro {
-		max-height: 550px;
-	}
+	// .img-intro {
+	// 	max-height: 550px;
+	// }
 
-	.img-intro-container{
+	.img-intro-container {
 		max-height: 420px;
 	}
 
@@ -55,7 +59,6 @@
 		position: relative;
 		top: -250px;
 	}
-
 }
 
 // @media print {

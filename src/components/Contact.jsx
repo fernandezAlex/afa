@@ -14,7 +14,7 @@ const Contact = () => {
 		setSendingMail(true);
 		emailjs
 			.sendForm(
-				"service_55x9stl",
+				"service_4azulo6",
 				"template_0i14v3q",
 				form.current,
 				"78zwihtYVAfb71eJa"
@@ -136,7 +136,7 @@ const Contact = () => {
 									</label>
 									<input
 										id="name"
-										name="user_name"
+										name="name"
 										type="text"
 										className="form-control py-1"
 										required
@@ -148,7 +148,7 @@ const Contact = () => {
 									</label>
 									<input
 										id="email"
-										name="user_email"
+										name="email"
 										type="email"
 										className="form-control py-1"
 										required
