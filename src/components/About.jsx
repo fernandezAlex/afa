@@ -10,9 +10,9 @@ const AboutUs = () => {
         <p className="text-center mb-2 wow fadeInUp">
           <span className="bg-primary text-dark px-2">{t("about-me")}</span>
         </p>
-        <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
+        {/* <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
           {t("about-title")}
-        </h2>
+        </h2> */}
         {/* Heading end*/}
         <div className="row">
           <div className="col-lg-8 pr-4 text-center text-lg-start wow fadeInUp">

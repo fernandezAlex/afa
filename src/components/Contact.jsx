@@ -14,16 +14,16 @@ const Contact = () => {
 		setSendingMail(true);
 		emailjs
 			.sendForm(
-				"service_i8Fk3ms",
-				"template_siFcin9",
+				"service_55x9stl",
+				"template_0i14v3q",
 				form.current,
-				"c9HsFgGF0tFWyVnAL"
+				"78zwihtYVAfb71eJa"
 			)
 			.then(
 				(result) => {
 					document.getElementById("contact-form").reset();
 					toast.success("Message sent successfully!", {
-						position: "top-right",
+						position: "bottom-right",
 						autoClose: 5000,
 						hideProgressBar: false,
 						closeOnClick: true,
@@ -32,12 +32,12 @@ const Contact = () => {
 						progress: undefined,
 						theme: "light",
 					});
-					console.log(result.text);
+					// console.log(result.text);
 					setSendingMail(false);
 				},
 				(error) => {
 					toast.error("Something went wrong!", {
-						position: "top-right",
+						position: "bottom-right",
 						autoClose: 5000,
 						hideProgressBar: false,
 						closeOnClick: true,
@@ -46,7 +46,7 @@ const Contact = () => {
 						progress: undefined,
 						theme: "light",
 					});
-					console.log(error.text);
+					// console.log(error.text);
 					setSendingMail(false);
 				}
 			);

@@ -1,5 +1,5 @@
 import React from "react";
-import videobg from "../../../videos/home.mp4";
+// import videobg from "../../../videos/home.mp4";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 import { scrollDuration } from "../../../config/commonConfig";
@@ -13,7 +13,7 @@ const FullScreenVideoBgIntro = () => {
       <div className="hero-wrap">
         <div className="hero-mask opacity-8 bg-primary" />
         <div className="player hero-bg ">
-          <video
+                {/* <video
             src={videobg}
             autoPlay
             muted
@@ -24,12 +24,22 @@ const FullScreenVideoBgIntro = () => {
               minHeight: "100%",
               objectFit: "cover",
             }}
-          ></video>
+          ></video> */}
+          <img
+            style={{
+              width: "100%",
+              height: "100vh",
+              minHeight: "100%",
+              objectFit: "cover",
+            }}
+            src="images/web-developer-bg.jpg"
+            alt="Alex Fernandez Developer"
+          />
         </div>
-        <div className="hero-content py-5 d-flex fullscreen">
-          <div className="container my-auto py-4">
+        <div className="hero-content pt-5 d-flex fullscreen">
+          <div className="container mt-auto pt-4">
             <div className="row">
-              <div className="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0">
+              <div className="col-lg-7 mt-4 text-center text-lg-start align-self-center order-0 order-lg-0">
                 <h1 className="text-12 fw-300 mb-0 text-uppercase">
                   {t("intro-welcome")}
                 </h1>
@@ -39,7 +49,7 @@ const FullScreenVideoBgIntro = () => {
                       strings: [
                         t("intro-designer"),
                         t("intro-developer"),
-                        t("intro-photographer"),
+                        t("intro-web-app"),
                       ],
                       autoStart: true,
                       loop: true,
@@ -69,11 +79,11 @@ const FullScreenVideoBgIntro = () => {
                   </span>
                 </Link>
               </div>
-              <div className="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
-                <div className="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn">
+              <div className="col-lg-5 text-center align-self-center mt-4 mb-lg-0 order-1 order-lg-1 img-intro-container">
+                <div className="d-inline-block wow fadeInUp">
                   <img
                     className="img-intro img-fluid rounded-pill d-block"
-                    src="images/web-developer.jpg"
+                    src="images/web-developer-transparent.png"
                     title="I'm Alex"
                     alt="I'm Alex"
                   />

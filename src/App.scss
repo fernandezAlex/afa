@@ -13,6 +13,12 @@
 	padding-right: 2rem;
 }
 
+.img-intro {
+	filter: drop-shadow(
+		0 0 10px rgba(0, 0, 0, .4)
+	);
+}
+
 .img-about-container {
 	height: 600px;
 }
@@ -34,7 +40,11 @@
 
 @media (max-width: 480px) {
 	.img-intro {
-		max-height: 450px;
+		max-height: 550px;
+	}
+
+	.img-intro-container{
+		max-height: 420px;
 	}
 
 	.img-about-container {
@@ -45,6 +55,7 @@
 		position: relative;
 		top: -250px;
 	}
+
 }
 
 // @media print {
