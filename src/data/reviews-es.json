@@ -1,32 +1,32 @@
 [
 	{
 		"name": "Alberto E. Porciani",
-		"position": "Presidente y CEO en Top Doctors Europa y Latam",
+		"position": "Presidente y CEO de Top Doctors Europe & Latam",
 		"src": "images/testimonial/alberto-porcciani.jpeg",
-		"desc": "Alex revolucionó nuestra web en TopDoctors. Su proyecto de páginas personalizadas para médicos fue brillante - mezclando creatividad con soluciones técnicas impecables. No solo es un crack en desarrollo, sino que entiende perfectamente cómo traducir ideas complejas a diseños que funcionan. Un fichaje de 10 para cualquier equipo."
+		"desc": "Alex mejoró nuestra presencia digital en TopDoctors con su proyecto de páginas personalizadas para médicos. Combina habilidades técnicas con pensamiento de diseño para ofrecer soluciones que simplemente funcionan."
 	},
 	{
 		"name": "Oscar Panadés Escobar",
-		"position": "IT Development Coordinator",
+		"position": "Coordinador de Desarrollo IT",
 		"src": "images/testimonial/oscar-panades.jpeg",
-		"desc": "Durante 4 años, Alex fue la pieza clave de nuestro equipo web en MediaMarkt. Le tirábamos encima los proyectos más complicados con plazos imposibles y siempre salía adelante. Un mago del front-end que convirtió nuestras campañas para Apple, Samsung y otras marcas en auténticos éxitos. Echo de menos tenerlo en el equipo."
+		"desc": "Durante sus 4 años en MediaMarkt, Alex entregó constantemente proyectos desafiantes con plazos ajustados. Su trabajo en front-end fue fundamental para el éxito de nuestras campañas para Apple, Samsung y otras marcas importantes."
 	},
 	{
 		"name": "Carlos del Campo Rodriguez",
-		"position": "Software Development Engineering Manager at Travelport",
+		"position": "Software Development Engineering Manager en Travelport",
 		"src": "images/testimonial/carlos-del-campo.jpeg",
-		"desc": "En Travelport, Alex demostró ser mucho más que un desarrollador. Su trabajo en Smartpoint Cloud elevó notablemente la calidad del producto. Resuelve problemas antes de que ocurran y su código es tan limpio como efectivo. No he conocido a muchos profesionales que combinen tan bien habilidad técnica con visión de producto."
+		"desc": "En Travelport, Alex contribuyó significativamente a Smartpoint Cloud, mejorando la calidad de nuestro producto. Escribe código limpio y efectivo, y tiene un buen equilibrio entre capacidad técnica y comprensión del producto."
 	},
 	{
 		"name": "Aleix Morte",
-		"position": "Co-Founder at Rackety",
+		"position": "Co-fundador de Rackety",
 		"src": "images/testimonial/aleix-morte.jpeg",
-		"desc": "Fichar a Alex para Rackety fue la mejor decisión que tomamos. Llegamos con ideas vagas y él las transformó en un producto real que funcionaba. Su capacidad para simplificar lo complejo y hacerlo accesible al usuario es única. Te da soluciones, no problemas - y eso en este sector es oro puro."
+		"desc": "Fichar a Alex para Rackety fue una de las mejores decisiones. Es particularmente bueno simplificando ideas complejas y haciéndolas accesibles para los usuarios, siempre aportando soluciones en lugar de problemas."
 	},
 	{
 		"name": "Sergio Atienza",
-		"position": "Co-founder at Inspira Yoga Esplugas",
+		"position": "Co-fundador de Inspira Yoga Esplugas",
 		"src": "images/testimonial/sergio-yoga.jpg",
-		"desc": "Alex creó la web de Inspira Yoga desde cero y superó todas nuestras expectativas. Captó la esencia de nuestro estudio y la plasmó perfectamente online. Cada vez que necesitamos un cambio, responde al momento. Sin complicaciones, sin tecnicismos innecesarios - simplemente resultados. Un profesional que hace que todo parezca fácil."
+		"desc": "Alex construyó la web de Inspira Yoga y transformó la esencia de nuestra escuela al mundo online. Responde rápidamente a las solicitudes de cambios y se comunica claramente para que todo funcione."
 	}
 ]
