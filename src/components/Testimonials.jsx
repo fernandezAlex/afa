@@ -7,7 +7,7 @@ import reviewsDataEN from "../data/reviews-en.json";
 import reviewsDataES from "../data/reviews-es.json";
 
 const Testimonials = () => {
-	const { i18n } = useTranslation();
+	const { i18n, t } = useTranslation();
 	const reviews = i18n.language === "es" ? reviewsDataES : reviewsDataEN;
 	const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
 		<button
@@ -54,11 +54,11 @@ const Testimonials = () => {
 		<section id="testimonial" className="section bg-secondary">
 			<div className="container">
 				{/* Heading */}
-				<p className=" text-center mb-2 wow fadeIn">
-					<span className="bg-primary text-dark px-2">Client Speak</span>
+				<p className="text-center mb-2 wow fadeIn">
+					<span className="bg-primary text-dark px-2">{t("client-opinion")}</span>
 				</p>
-				<h2 className="text-10 fw-600 text-white text-center mb-5 wow fadeIn">
-					What Some of my Clients Say
+				<h2 className="text-10 fw-600 text-white text-center wow fadeIn">
+					{t("what-clients-say")}
 				</h2>
 				{/* Heading end*/}
 				<div className="row">
@@ -71,11 +71,10 @@ const Testimonials = () => {
 									.map((review, index) => (
 										<div className="item text-center px-5" key={index}>
 											{" "}
-											Bb
 											<span className="text-9 text-primary">
 												<i className="fa fa-quote-start" />
 											</span>
-											<p className="text-5 text-white">{review.desc}</p>
+											<p className="text-3 text-white">{review.desc}</p>
 											<img
 												style={{ maxWidth: "150px" }}
 												className="img-fluid d-inline-block w-auto rounded-circle shadow"

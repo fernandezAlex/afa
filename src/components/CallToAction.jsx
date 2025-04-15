@@ -2,8 +2,11 @@ import React from "react";
 import { Link } from "react-scroll";
 import { Parallax } from "react-parallax";
 import { scrollDuration } from "../config/commonConfig";
+import { useTranslation } from "react-i18next";
 
 const CallToAction = () => {
+  const { t } = useTranslation();
+  
   return (
     <section>
       <div className="hero-wrap">
@@ -16,7 +19,7 @@ const CallToAction = () => {
           <div className="hero-content section">
             <div className="container text-center py-5 wow fadeInUp">
               <h2 className="text-10 fw-600 text-white mb-5">
-                Interested in working with me?
+                {t("interested-working")}
               </h2>
               <Link
                 className="btn btn-primary rounded-0 smooth-scroll wow rubberBand"
@@ -25,7 +28,7 @@ const CallToAction = () => {
                 duration={scrollDuration}
                 to="contact"
               >
-                Hire Me!
+                {t("hire-me")}
               </Link>{" "}
             </div>
           </div>

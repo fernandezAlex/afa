@@ -67,10 +67,12 @@ const Resume = () => {
       name: `${t("design")} - Adobe Photoshop y Adobe Illustrator`,
       percent: 90,
     },
+    /* Habilidad de fotografía temporalmente oculta
     {
       name: `${t("photography-service-title")}`,
       percent: 60,
     },
+    */
     {
       name: "Marketing/SEO - Google Analytics y Google Tag Manager.",
       percent: 65,
@@ -117,7 +119,7 @@ const Resume = () => {
     <section id="resume" className="section">
       <div className="container">
         {/* Heading */}
-        <p className=" text-center mb-2 wow fadeInUp">
+        <p className="text-center mb-2 wow fadeInUp">
           <span className="bg-primary text-dark px-2">{t("resume")}</span>
         </p>
         <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
@@ -199,15 +201,15 @@ const Resume = () => {
               </div>
             ))}
         </div>
-        <p className="text-center mt-5 wow fadeInUp">
+        <div className="text-center mt-5 wow fadeInUp">
           <a
-            className="btn btn-outline-dark shadow-none rounded-0"
             href={i18n.language === "es" ? resumeFileES : resumeFileENG}
             download
+            className="btn btn-primary rounded-0"
           >
             {t("download-cv")}
           </a>
-        </p>
+        </div>
       </div>
     </section>
   );

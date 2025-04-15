@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
+import { useTranslation } from "react-i18next";
 
 import "react-toastify/dist/ReactToastify.css";
 import { Tooltip } from "./Tooltip";
@@ -8,6 +9,7 @@ import { Tooltip } from "./Tooltip";
 const Contact = () => {
 	const form = useRef();
 	const [sendingMail, setSendingMail] = useState(false);
+	const { t } = useTranslation();
 
 	const sendEmail = (e) => {
 		e.preventDefault();
@@ -57,15 +59,13 @@ const Contact = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5 text-center text-lg-start wow fadeInUp">
-						<h2 className="text-10 fw-600 mb-5">Let's get in touch</h2>
+						<h2 className="text-10 fw-600 mb-5">{t("lets-get-in-touch")}</h2>
 						<p className="text-5 mb-5">
-							I enjoy discussing new projects and design challenges. Please
-							share as much info, as possible so we can get the most out of our
-							first catch-up.
+							{t("contact-description")}
 						</p>
-						<h3 className="text-5 fw-600">Living In:</h3>
+						<h3 className="text-5 fw-600">{t("living-in")}</h3>
 						<address className="text-4">Barcelona, Spain.</address>
-						<h3 className="text-5 fw-600">Call:</h3>
+						<h3 className="text-5 fw-600">{t("call")}</h3>
 						<p className="text-4">(+34) 666 956 636</p>
 						<ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
 							<li className="social-icons-facebook">
@@ -119,7 +119,7 @@ const Contact = () => {
 						data-wow-delay="0.3s"
 					>
 						<h2 className="text-10 fw-600 text-center text-lg-start mb-5">
-							Estimate your Project?
+							{t("estimate-project")}
 						</h2>
 						{/* Contact Form */}
 						<form
@@ -132,7 +132,7 @@ const Contact = () => {
 							<div className="row g-4">
 								<div className="col-12">
 									<label className="form-label" htmlFor="name">
-										What is Your Name:
+										{t("your-name")}
 									</label>
 									<input
 										id="name"
@@ -144,7 +144,7 @@ const Contact = () => {
 								</div>
 								<div className="col-12">
 									<label className="form-label" htmlFor="email">
-										Your Email Address:
+										{t("your-email")}
 									</label>
 									<input
 										id="email"
@@ -156,7 +156,7 @@ const Contact = () => {
 								</div>
 								<div className="col-12">
 									<label className="form-label" htmlFor="form-message">
-										How can I Help you?:
+										{t("how-can-help")}
 									</label>
 									<textarea
 										id="form-message"
@@ -184,7 +184,7 @@ const Contact = () => {
 											</>
 										) : (
 											<>
-												Send{" "}
+												{t("send")}{" "}
 												<span className="ms-3">
 													<i className="fas fa-arrow-right" />
 												</span>

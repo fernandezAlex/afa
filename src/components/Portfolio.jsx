@@ -4,8 +4,10 @@ import HorizontalCarusel from "../components/HorizontalCarusel";
 import topDoctors from "../data/topDoctors.json";
 import mediamarkt from "../data/mediamarkt.json";
 import projectsData from "../data/projectsData.json";
+import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
+	const { t } = useTranslation();
 	const [filterKey, setFilterKey] = useState("*");
 	const [imagesLoaded, setimagesLoaded] = useState(0);
 	const [selectedProjectDetails, setSelectedProjectDetails] = useState();
@@ -14,9 +16,11 @@ const Portfolio = () => {
 	const [loadCount, setLoadCount] = useState(6);
 
 	const filters = {
-		WEB: "Web",
-		DESIGN: "Design",
-		PHOTOGRAPHY: "Photography",
+		WEB: t("web"),
+		DESIGN: t("design"),
+		/* Categoría de fotografía temporalmente oculta
+		PHOTOGRAPHY: t("photography"),
+		*/
 	};
 
 	const types = {
@@ -61,17 +65,17 @@ const Portfolio = () => {
 				<div className={"container"}>
 					{/* Heading */}
 					<p className="text-center mb-2 wow fadeInUp">
-						<span className="bg-primary text-dark px-2">Portfolio</span>
+						<span className="bg-primary text-dark px-2">{t("portfolio")}</span>
 					</p>
 					<h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
-						Some of my most recent projects
+						{t("recent-projects")}
 					</h2>
 					{/* Heading end*/}
 					<HorizontalCarusel data={topDoctors} />
 					<HorizontalCarusel data={mediamarkt} direction="left" />
 					{/* Filter Menu */}
 					<h2 className="mt-4 text-8 fw-600 text-center mb-5 wow fadeInUp">
-						All my works in details
+						{t("all-works")}
 					</h2>
 					<ul
 						className={
@@ -83,7 +87,7 @@ const Portfolio = () => {
 								className={"nav-link " + (filterKey === "*" ? "active" : "")}
 								onClick={handleFilterKeyChange("*")}
 							>
-								All
+								{t("all")}
 							</button>
 						</li>
 						{Object.keys(filters).map((oneKey, i) => (
@@ -164,7 +168,7 @@ const Portfolio = () => {
 								className="text-center mt-4 btn btn-primary rounded-2 smooth-scroll wow rubberBand"
 								onClick={loadMoreProjects}
 							>
-								Ver más
+								{t("view-more")}
 							</button>
 						)}
 					</div>

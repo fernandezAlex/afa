@@ -25,11 +25,13 @@ const Services = () => {
       desc: t("agenda-service"),
       icon: "fas fa-calendar-check",
     },
+    /* Servicio de fotografía temporalmente oculto
     {
       name: t("photography-service-title"),
       desc: t("photography-service"),
       icon: "fas fa-camera",
     },
+    */
     {
       name: t("content-service-title"),
       desc: t("content-service"),

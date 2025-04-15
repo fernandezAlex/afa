@@ -24,7 +24,7 @@ const AboutUs = () => {
               </span>
             </h2>
             <br />
-            <p className="text-4">{t("about-me-description-1")}</p>
+            <p className="text-4">{t("about-me-description-1-modified")}</p>
             <br />
             <p className="text-4">{t("about-me-description-2")}</p>
             <div className="row d-none d-md-flex gy-3 mt-4">
@@ -40,7 +40,7 @@ const AboutUs = () => {
               >
                 <p className="text-muted fw-500 mb-0">Email:</p>
                 <p className="text-4 fw-600 mb-0">
-                  <a className="link-dark" href="mailto:chat@callum.com">
+                  <a className="link-dark" href="mailto:info@afacreations.com">
                     info@afacreations.com
                   </a>
                 </p>
