@@ -21,6 +21,11 @@ const Services = () => {
       icon: "fas fa-regular fa-shopping-cart",
     },
     {
+      name: t("digital-transformation-service-title"),
+      desc: t("digital-transformation-service"),
+      icon: "fas fa-digital fa-chart-line",
+    },
+    {
       name: t("agenda-service-title"),
       desc: t("agenda-service"),
       icon: "fas fa-calendar-check",

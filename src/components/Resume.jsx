@@ -9,6 +9,13 @@ const Resume = () => {
 
   const educationDetails = [
     {
+      yearRange: "2023",
+      title: `${t("education-digital-manager-title")}`,
+      place: "EOI - Escuela de Organización Industrial",
+      desc: `${t("education-digital-manager-description")}`,
+      img: "images/eoi-logo.png",
+    },
+    {
       yearRange: "2020 - 2021",
       title: `${t("education-nuclio-title")}`,
       place: "Nuclio Digital School",
@@ -73,6 +80,10 @@ const Resume = () => {
       percent: 60,
     },
     */
+    {
+      name: "Transformación Digital - IA, CRM, ERP, Automatización",
+      percent: 85,
+    },
     {
       name: "Marketing/SEO - Google Analytics y Google Tag Manager.",
       percent: 65,
@@ -163,7 +174,7 @@ const Resume = () => {
                       style={{ maxWidth: "200px" }}
                       src={value.img}
                       alt={value.title}
-                      className="me-3"
+                      className="me-3 mb-3"
                     />
                     <h3 className="text-5">{value.title}</h3>
                     <p className="mb-2">

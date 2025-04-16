@@ -36,6 +36,22 @@ i18n.use(initReactI18next).init({
 	},
 });
 
+// Establecer meta title y description basados en el idioma actual
+const updateMetaTags = () => {
+	document.title = i18n.t("meta-title");
+	document
+		.querySelector('meta[name="description"]')
+		.setAttribute("content", i18n.t("meta-description"));
+};
+
+// Actualizar metadatos al cargar la página
+updateMetaTags();
+
+// Actualizar metadatos cuando cambie el idioma
+i18n.on("languageChanged", () => {
+	updateMetaTags();
+});
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>

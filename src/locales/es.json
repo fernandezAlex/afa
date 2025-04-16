@@ -21,8 +21,8 @@
 	"intro-welcome-2": "Encantado, soy ",
 	"years-experience": "Años de <strong>Experiencia</strong>",
 	"about-me-description-1": "Soy un apasionado diseñador, desarrollador y fotógrafo especializado en el mundo digital. Mi enfoque se centra en crear experiencias visuales impactantes y funcionales para mis clientes. Desde el diseño web y el desarrollo de APP's hasta la creación de logotipos únicos y la captura de momentos memorables a través de la fotografía, puedo ayudarte a llevar tu proyecto al siguiente nivel. ",
-	"about-me-description-1-modified": "Soy un apasionado diseñador y desarrollador especializado en el mundo digital. Mi enfoque se centra en crear experiencias visuales impactantes y funcionales para mis clientes. Desde el diseño web y el desarrollo de APP's hasta la creación de logotipos únicos y aplicaciones web atractivas, puedo ayudarte a llevar tu proyecto al siguiente nivel.",
-	"about-me-description-2": "Con un enfoque en el diseño limpio y elegante, junto con estrategias de branding efectivas, puedo ayudarte a destacar en un mercado competitivo. Mi objetivo es brindarte resultados excepcionales que cumplan con tus necesidades y superen tus expectativas. Si buscas un profesional versátil y confiable para tu proyecto, estoy aquí para ayudarte a crear tu presencia digital, única y atractiva.",
+	"about-me-description-1-modified": "Diseñador, programador y digital manager especializado en crear experiencias visuales impactantes y transformación digital de proyectos. Soluciones en diseño web, desarrollo de APPs, creación de logotipos, automatización de procesos y aplicaciones web atractivas para llevar tu proyecto al siguiente nivel.",
+	"about-me-description-2": "Diseño creativo, estrategia de marca y soluciones de IA para potenciar tu competitividad actual. Mi objetivo es optimizar tu negocio con resultados que superen las expectativas. Como Digital Manager gestiono la digitalización 360° de proyectos, creando presencia digital exitosa con la última tecnología.",
 	"name": "Nombre",
 	"from": "Ubicado",
 	"service-title": "Cómo puedo ayudarte en tu proyecto",
@@ -32,6 +32,8 @@
 	"web-service": "¿Necesitas un sitio web o una aplicación móvil para tu negocio? Ofrezco servicios completos de diseño y desarrollo web, adaptados a tus necesidades. Ya sea que prefieras un sitio a medida, hecho con código o utilizar una plataforma de gestión de contenido para administrarlo tú mismo, estoy aquí para ayudarte con tu presencia digital.",
 	"ecommerce-service-title": "Tienda Online",
 	"ecommerce-service": "¿Estás pensando en vender por internet? Podrás tener tu propia web convertida en una tienda en línea. Te brindo la simplicidad y comodidad para vender tus productos de manera digital, y además, tendrás la opción de gestionar aspectos como el stock de productos por ti mismo.",
+	"digital-transformation-service-title": "Transformación Digital & IA",
+	"digital-transformation-service": "¿Necesitas adaptarte al mundo digital? Como Digital Manager certificado, implemento soluciones que optimizan procesos y aumentan la competitividad. Ofrezco transformación digital, automatización con IA y digitalización integral. Integro CRM, ERP e Inteligencia Artificial para impulsar la eficiencia y el crecimiento sostenible de tu negocio.",
 	"photography-service-title": "Fotografía & Videografía",
 	"photography-service": "Capturo momentos únicos y destacados con mi cámara Panasonic Lumix DC-FZ83. Fotografía de productos y sesiones fotográficas personales. Ya sea en exteriores o interiores. Grabación de videos en 4K, para que puedas tener contenido para tus espacios digitales como redes o web, con la máxima calidad.",
 	"agenda-service-title": "Agenda Citas Digital",
@@ -51,6 +53,8 @@
 	"education-cfgs-description": "Capacitación para desarrollar, implantar y mantener aplicaciones web, con independencia del modelo empleado, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad.",
 	"education-cfgm-title": "CFGM Diseño gráfico",
 	"education-cfgm-description": "Sólida formación en la creación de elementos visuales impactantes. Utilizazción de herramientas y técnicas de diseño para transmitir mensajes de manera efectiva y conectar con la audiencia.",
+	"education-digital-manager-title": "Certificación Digital Manager - Agente digitalizador",
+	"education-digital-manager-description": "Certificación en transformación digital de empresas, implementación de herramientas avanzadas como CRM, ERP y aplicación práctica de tecnologías de Inteligencia Artificial. Especialización en ciberseguridad, automatización inteligente de procesos y desarrollo de planes integrales de digitalización con IA para optimizar operaciones y aumentar la competitividad empresarial.",
 	"experience-travelport-title": "Desarrollador Full Stack",
 	"experience-travelport-description": "Trabajo en el desarrollo de nuevas funcionalidades, corrección de errores, mejoras y mantenimiento en Travelport Smartpoint Cloud. Esta aplicación web tiene como objetivo reemplazar el software existente utilizado por las agencias de viajes, Galileo GDS. Mi contribución destacada incluye la creación desde cero de la parte gráfica del archivo de reservas utilizando una arquitectura de microservicios y microfrontends.",
 	"experience-mediamarkt-title": "Desarrollador Font End & Diseñador web UI/UX",
@@ -74,5 +78,7 @@
 	"all": "Todos",
 	"web": "Web",
 	"photography": "Fotografía",
-	"view-more": "Ver más"
+	"view-more": "Ver más",
+	"meta-title": "AFA Creations | Desarrollo Web y Diseño",
+	"meta-description": "Servicios profesionales de desarrollo web, diseño UI/UX, transformación digital e implementación de IA en Barcelona. Consultoría para automatización inteligente de procesos y digitalización empresarial."
 }

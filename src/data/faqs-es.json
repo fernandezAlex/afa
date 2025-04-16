@@ -1,7 +1,7 @@
 [
 	{
 		"question": "¿Qué servicios ofreces?",
-		"answer": "En AFA Creations, ofrecemos servicios de diseño gráfico, desarrollo web, agendas digitales, SEO y marketing de contenidos adaptados a las necesidades de pequeños o grandes empresas, proyectos y marcas."
+		"answer": "En AFA Creations, ofrecemos servicios de diseño gráfico, desarrollo web, transformación digital con IA, automatización inteligente de procesos, agendas digitales, SEO y marketing de contenidos adaptados a las necesidades de pequeños o grandes empresas, proyectos y marcas."
 	},
 	{
 		"question": "¿Qué hace diferente a AFA Creations de otras agencias digitales?",
@@ -12,39 +12,19 @@
 		"answer": "Ofrecemos precios competitivos: desarrollo de sitios web por €600 con una tarifa de mantenimiento mensual desde €50, creación de branding por €400. Contacta y haremos un presupuesto adecuado a tu necesidad."
 	},
 	{
-		"question": "¿Puedo ver ejemplos de tu trabajo anterior?",
-		"answer": "Sí, puedes ver nuestro portafolio que muestra nuestra experiencia en diseño gráfico y desarrollo web en nuestro sitio web www.afacreations.com."
+		"question": "¿Puedo ver ejemplos de los trabajos realizados?",
+		"answer": "Sí, puedes ver el portafolio de trabajos que muestra la experiencia en diseño gráfico y desarrollo web en el sitio web www.afacreations.com."
 	},
 	{
-		"question": "¿Ofreces tus servicios como freelancer o a través de una empresa para otros negocios y proyectos?",
-		"answer": "Sí, en AFA Creations ofrecemos nuestros servicios tanto como freelancer como a través de nuestra empresa para otros negocios y proyectos. Ya sea que necesites un freelancer dedicado o una agencia digital integral, estamos preparados para atender tus necesidades de manera eficiente y profesional."
-	},
-	{
-		"question": "¿Pueden trabajar con CMS existentes como WordPress?",
-		"answer": "Sí, tenemos amplia experiencia con WordPress y podemos desarrollar sitios web personalizados utilizando varios sistemas de gestión de contenidos."
+		"question": "¿Qué incluye tu servicio de transformación digital e IA para empresas?",
+		"answer": "Como Digital Manager certificado, ofrezco consultoría en transformación digital que incluye: análisis de necesidades tecnológicas, implementación de soluciones CRM/ERP potenciadas con IA, automatización inteligente de procesos repetitivos, integración de herramientas de Inteligencia Artificial para análisis de datos, capacitación de personal y desarrollo de un plan estratégico de digitalización personalizado. Todo enfocado en optimizar operaciones, reducir costos y aumentar la competitividad de tu negocio mediante el uso eficiente de tecnologías de IA."
 	},
 	{
 		"question": "¿Cómo empiezo con tus servicios?",
-		"answer": "Contáctanos a través de nuestro sitio web, envíanos un correo a alex.fernandez.arroyo@gmail.com, o llámanos al +34 666956636. Discutiremos los requisitos de tu proyecto y te ofreceremos una solución a medida."
+		"answer": "Contáctanos a través de nuestro sitio web, envíanos un correo a alex.fernandez.arroyo@gmail.com, o llámanos al +34 666956636. Discutiremos los requisitos de tu proyecto, analizaremos tus necesidades específicas y te ofreceremos un presupuesto personalizado de una solución a medida que se adapte perfectamente a tus objetivos."
 	},
 	{
 		"question": "¿Ofreces mantenimiento y soporte después de completar el proyecto?",
-		"answer": "Sí, ofrecemos mantenimiento y soporte continuo para asegurar que tus soluciones digitales estén actualizadas y funcionen correctamente, con una tarifa de mantenimiento mensual de €50 para sitios web."
-	},
-	{
-		"question": "¿Cuál es tu tiempo de entrega para los proyectos?",
-		"answer": "El tiempo de entrega depende de la complejidad del proyecto. Normalmente, un proyecto estándar de desarrollo web toma entre 4 y 6 semanas desde el inicio hasta la finalización."
-	},
-	{
-		"question": "¿Cómo manejas los pagos?",
-		"answer": "Ofrecemos opciones de pago flexibles, incluyendo transferencia bancaria y PayPal. Actualmente, no requerimos que los clientes estén registrados como autónomos para recibir pagos."
-	},
-	{
-		"question": "¿Qué tecnologías utilizas en tus proyectos de desarrollo web?",
-		"answer": "Utilizamos tecnologías modernas como HTML5, CSS, JavaScript (ES6), React, SASS, Bootstrap, Tailwind, Node.js, PHP, Express, MongoDB, SQL, WordPress, Typescript, TDD/Jest, metodologías ágiles y Scrum."
-	},
-	{
-		"question": "¿Ofreces soluciones personalizadas para negocios que no están en tus servicios estándar?",
-		"answer": "Sí, ofrecemos soluciones flexibles y adaptables para satisfacer las necesidades específicas de los clientes. Contáctanos para discutir tus requisitos únicos y crearemos un servicio a medida para ti."
+		"answer": "Sí, ofrecemos mantenimiento y soporte continuo para asegurar que tus soluciones digitales estén actualizadas y funcionen correctamente, con una tarifa de mantenimiento mensual desde €50 para sitios web."
 	}
 ]
