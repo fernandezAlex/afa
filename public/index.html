@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="theme-color" content="#000000" />
-		<meta name="description" content="AFA CREATIONS" />
-		<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+		<meta
+			name="description"
+			content="Desarrollo web profesional y diseño digital creativo por Alex Fernández. Especialista en creación de sitios web modernos, experiencias interactivas y soluciones digitales personalizadas para empresas."
+		/>
+		<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
 		<!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -72,6 +75,43 @@
 			href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
 			type="text/css"
 		/>
+
+		<meta
+			name="keywords"
+			content="desarrollo web, diseño digital, Alex Fernández, programación, diseño UI/UX, aplicaciones web, páginas web, portfolio digital, automatización de procesos, optimización de SEO, marketing digital, creaciones digitales, soluciones tecnológicas, herramientas de Inteligencia Artificial, automatización de procesos con IA"
+		/>
+
+		<!-- Canonical URL para evitar contenido duplicado -->
+		<link rel="canonical" href="https://afacreations.com" />
+
+		<!-- Preload de recursos críticos -->
+		<link rel="preload" href="/static/css/main.0b091740.css" as="style" />
+		<link rel="preload" href="/static/js/main.26a0dc20.js" as="script" />
+
+		<!-- Preconnect a recursos externos -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<!-- Configuración para robots -->
+		<meta
+			name="robots"
+			content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+		/>
+
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-P33208TRQQ"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "G-P33208TRQQ");
+		</script>
 	</head>
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
@@ -95,5 +135,25 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "ProfessionalService",
+				"name": "AFA CREATIONS - Alex Fernández",
+				"description": "Desarrollo web profesional y diseño digital creativo. Especialista en creación de sitios web modernos y soluciones digitales.",
+				"image": "https://afacreations.com/images/web-developer-sm.jpg",
+				"url": "https://afacreations.com",
+				"telephone": "+34XXXXXXXXX",
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "España"
+				},
+				"priceRange": "€€",
+				"sameAs": [
+					"https://www.linkedin.com/in/alejandro-fernandez/",
+					"https://github.com/yourusername"
+				]
+			}
+		</script>
 	</body>
 </html>
