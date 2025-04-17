@@ -50,7 +50,6 @@ const FullScreenVideoBgIntro = () => {
                         t("intro-designer"),
                         t("intro-developer"),
                         t("intro-web-app"),
-                        t("ia"),
                       ],
                       autoStart: true,
                       loop: true,
