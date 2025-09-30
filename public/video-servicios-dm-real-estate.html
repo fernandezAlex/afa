@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="description"
+			content="Video de servicios de transformación digital y gestión Digital Manager para Real Estate - AFA Creations"
+		/>
+		<title>Servicios DM Real Estate - AFA Creations</title>
+		<link rel="icon" href="/favicon.ico" />
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			body {
+				margin: 0;
+				padding: 0;
+				background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-height: 100vh;
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+					"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+					"Helvetica Neue", sans-serif;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+
+			.video-wrapper {
+				width: 100%;
+				max-width: 1400px;
+				padding: 20px;
+			}
+
+			.video-container {
+				background: rgba(255, 255, 255, 0.95);
+				border-radius: 16px;
+				padding: 30px;
+				box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+			}
+
+			.video-header {
+				text-align: center;
+				margin-bottom: 25px;
+			}
+
+			.video-header h1 {
+				color: #333;
+				font-size: 2rem;
+				margin-bottom: 10px;
+				font-weight: 700;
+			}
+
+			.video-header p {
+				color: #666;
+				font-size: 1.1rem;
+			}
+
+			.video-player {
+				width: 100%;
+				border-radius: 12px;
+				box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+				background: #000;
+			}
+
+			video {
+				width: 100%;
+				height: auto;
+				border-radius: 12px;
+				display: block;
+			}
+
+			.video-footer {
+				margin-top: 25px;
+				text-align: center;
+			}
+
+			.back-link {
+				display: inline-block;
+				color: #fff;
+				text-decoration: none;
+				padding: 12px 30px;
+				background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+				border-radius: 8px;
+				font-weight: 600;
+				transition: all 0.3s ease;
+				box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+			}
+
+			.back-link:hover {
+				transform: translateY(-2px);
+				box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+			}
+
+			.logo {
+				position: absolute;
+				top: 20px;
+				left: 20px;
+				width: 50px;
+				height: 50px;
+			}
+
+			@media (max-width: 768px) {
+				.video-container {
+					padding: 20px;
+				}
+
+				.video-header h1 {
+					font-size: 1.5rem;
+				}
+
+				.video-header p {
+					font-size: 1rem;
+				}
+
+				.video-wrapper {
+					padding: 10px;
+				}
+			}
+
+			.loading {
+				text-align: center;
+				padding: 40px;
+				color: #666;
+			}
+
+			.error-message {
+				text-align: center;
+				padding: 40px;
+				color: #dc3545;
+				background: #fff3cd;
+				border-radius: 8px;
+				margin: 20px 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="video-wrapper">
+			<div class="video-container">
+				<div class="video-header">
+					<h1>Servicios Digital Manager - Real Estate</h1>
+				</div>
+				<div class="video-player">
+					<video
+						controls
+						controlsList="nodownload"
+						preload="metadata"
+						id="mainVideo"
+					>
+						<source src="/videos/dm-real-estate.mp4" type="video/mp4" />
+						Tu navegador no soporta el elemento de video.
+					</video>
+				</div>
+
+				<div class="video-footer">
+					<a href="/" class="back-link"> ← Volver a AFA Creations </a>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			// Script para manejar errores de carga del video
+			const video = document.getElementById("mainVideo");
+
+			video.addEventListener("error", function () {
+				const container = document.querySelector(".video-player");
+				container.innerHTML =
+					'<div class="error-message"><h3>Error al cargar el video</h3><p>Por favor, asegúrate de que el archivo de video existe en /public/videos/dm-real-estate.mp4</p></div>';
+			});
+
+			// Analytics o tracking si lo necesitas
+			video.addEventListener("play", function () {
+				console.log("Video reproducido");
+				// Aquí podrías agregar tracking con Google Analytics si lo tienes configurado
+			});
+		</script>
+	</body>
+</html>

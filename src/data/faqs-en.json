@@ -26,5 +26,13 @@
 	{
 		"question": "Do you offer maintenance and support after the project is completed?",
 		"answer": "Yes, we offer ongoing maintenance and support to ensure your digital solutions remain up-to-date and fully functional, with a monthly maintenance fee from €50 for websites."
+	},
+	{
+		"question": "How will we communicate during the service?",
+		"answer": "All my services include continuous professional support. We will maintain constant communication throughout the entire work process via email, WhatsApp, or phone to address any questions or concerns you may have. My goal is to ensure fluid and transparent communication at every stage of the project."
+	},
+	{
+		"question": "How long does it take to complete a web design?",
+		"answer": "When I have an initial functional version (MVP) of your website, I'll provide you with a temporary URL on my server so you can follow the evolution of the design. If you provide the required materials within the agreed timeframe, your website will be ready in approximately 10 days. At that point, the remaining 50% payment for the project will be made, and I will migrate the website from my server to yours."
 	}
 ]

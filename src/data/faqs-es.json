@@ -26,5 +26,13 @@
 	{
 		"question": "¿Ofreces mantenimiento y soporte después de completar el proyecto?",
 		"answer": "Sí, ofrecemos mantenimiento y soporte continuo para asegurar que tus soluciones digitales estén actualizadas y funcionen correctamente, con una tarifa de mantenimiento mensual desde €50 para sitios web."
+	},
+	{
+		"question": "¿Cómo nos comunicaremos durante el servicio?",
+		"answer": "Todos mis servicios incluyen soporte profesional continuo. Mantendremos comunicación constante durante todo el proceso de trabajo a través de email, WhatsApp o teléfono para resolver cualquier duda o consulta que puedas tener. Mi objetivo es asegurar una comunicación fluida y transparente en cada etapa del proyecto."
+	},
+	{
+		"question": "¿Cuánto tiempo tardas en completar un diseño web?",
+		"answer": "Cuando tenga una versión inicial funcional (MVP) de tu página web, te proporcionaré una URL temporal en mi servidor para que puedas seguir la evolución del diseño. Si la entrega de materiales por tu parte se realiza en los plazos acordados, tu página web estará lista en aproximadamente 10 días. En ese momento se realizará el pago del 50% restante del proyecto y migraré la página web de mi servidor al tuyo."
 	}
 ]
