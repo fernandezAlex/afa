@@ -18,6 +18,7 @@ import "./sass/stylesheet.scss";
 
 import "./index.scss";
 import App from "./App";
+import HermesPrivacy from "./components/HermesPrivacy";
 import reportWebVitals from "./reportWebVitals";
 
 i18n.use(initReactI18next).init({
@@ -53,9 +54,10 @@ i18n.on("languageChanged", () => {
 });
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+const RootComponent = window.location.pathname === "/privacidad-hermes" ? HermesPrivacy : App;
 root.render(
 	<React.StrictMode>
-		<App />
+		<RootComponent />
 	</React.StrictMode>
 );
 
